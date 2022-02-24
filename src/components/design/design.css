@@ -1,0 +1,44 @@
+.d {
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px;
+    /* for img */
+    overflow: hidden; 
+}
+  
+/* little browser look, top of the card */
+.d-browser {
+    height: 20px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+    /* to stop photos overflowing the browser feel */
+    position: sticky;
+    z-index: 2;
+}
+  
+.d-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+  
+.d-img {
+    width: 100%;
+    transition: all 15s ease;
+}
+  
+.d:hover .d-img {
+    transform: translateY(-100%);
+}
+  
+@media screen and (max-width: 480px) {
+    .d {
+      width: 40%;
+      height: 20vh;
+    }
+}

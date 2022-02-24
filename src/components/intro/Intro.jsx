@@ -87,6 +87,7 @@ const Intro = () => {
             </svg>
         </div>
          
+         {/* Above the fold photo */}
         <div className="i-right">
             <div className="i-bg"></div>
             <img src={me} alt="" className="i-img" />
