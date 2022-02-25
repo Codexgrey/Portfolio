@@ -6,7 +6,7 @@ import Git from "../../img/github.png";
 import Email from "../../img/email.png";
 import LinkedIn from "../../img/linkedin.png";
 import Address from "../../img/placeholder.png";
-import { useContext, useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 // email server provider
 import emailjs from "@emailjs/browser"; 
@@ -75,7 +75,7 @@ const Contact = () => {
 
         <div className="c-right">
           <p className="c-desc">
-            <b>What’s your challenge?</b> Get in touch. Let's design, 
+            <b>What's your challenge?</b> Get in touch. Let's design, 
             build, engineer a suitable solution.
           </p>
 

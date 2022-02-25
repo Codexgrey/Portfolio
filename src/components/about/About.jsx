@@ -23,10 +23,9 @@ const About = () => {
 
             <div className="a-desc">
                 <p>
-                    Describing myself is a bit tricky, i have a habit of under-selling me, or so i've been told. 
-                    I am many things - a designer, developer, engineer etc<br />
-                    The common theme in these facades is my burning desire <br />
-                    to up-skill, to grow, be really good at what i do! <br />
+                    I wear many hats - a designer, developer, engineer etc<br />
+                    The common theme in these facades is my hunger <br />
+                    to upskill, to grow, be really good at what i do! <br />
                     <br />
                     My motto <b>Kaizen</b>, is Japanese for <em>Continuous Improvement</em>. <br />
                     I'm skilled in UI/UX design & principles. Proficient in javascript, <br />

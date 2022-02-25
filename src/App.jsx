@@ -4,10 +4,25 @@ import DesignList from "./components/designList/DesignList.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Toggle from "./components/toggle/Toggle.jsx";
 
+// using context API
+import { useContext } from "react";
+import { ThemeContext } from "./context";
+
 // rendering components
 const App = () => {
+  const theme = useContext(ThemeContext);
+  // accessing our initial state
+  const darkMode = theme.state.darkMode;
+
   return (
-      <div>
+      <div
+        style={{
+          // if darkmode bgc - #222, else bgc - white
+          backgroundColor: darkMode ? "#222" : "white",
+          // if darkMode, font-color = white 
+          color: darkMode && "white",
+        }}
+      >
         <Toggle />
         <Intro />
         <About />
