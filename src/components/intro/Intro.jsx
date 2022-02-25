@@ -1,7 +1,7 @@
 // setup functional component, import it to App.jsx for rendering
 import React from 'react'
 import './intro.css';
-import me from "../../img/me1.png"
+import me from "../../img/me2.png"
 
 const Intro = () => {
   return (

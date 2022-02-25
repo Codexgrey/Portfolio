@@ -1,7 +1,8 @@
-// init comp and import in app.jsx for rendering
+// init comp and import in app.jsx to render
 import React from 'react'
 import "./about.css";
 import greenme from "../../img/me.png"
+import Goal from "../../img/target.png";
 
 const About = () => {
   return (
@@ -22,24 +23,28 @@ const About = () => {
 
             <div className="a-desc">
                 <p>
-                    Describing myself is a bit tricky; I have a habit of under-selling me, or so i've been told. 
-                    I am many things; a designer, developer, engineer, scientist etc...
-                    The common theme in all these facades is my burning desire to up-skill, to grow...become a <b>MAESTRO!</b>
+                    Describing myself is a bit tricky, i have a habit of under-selling me, or so i've been told. 
+                    I am many things - a designer, developer, engineer etc<br />
+                    The common theme in these facades is my burning desire <br />
+                    to up-skill, to grow, be really good at what i do! <br />
+                    <br />
+                    My motto <b>Kaizen</b>, is Japanese for <em>Continuous Improvement</em>. <br />
+                    I'm skilled in UI/UX design & principles. Proficient in javascript, <br />
+                    react, python, django and others. <br />
+                    <br />
+                    You already know my name, what you don't know is <br /> 
+                    i've been chasing my dreams with technology since December 2018, <br /> 
+                    the rest you'll find out if you're lucky enough to work with me.
                 </p>
-                <br />
-                <p> 
-                    <em>I seek specialization in a domain of technology and i'm currently traversing the ecosystem in search of my <b>niche</b>.</em>
-                </p> 
-                <br />
-                <p>
-                    My motto <b>Kaizen</b>, is Japanese for <b>Continuous Improvement</b>. 
-                    This is aptly matched by my ability to learn and an appetite for technology. 
-                    I'm skilled in UI/UX design & principles. Proficient in Javascript, React as well as Python,
-                    (Django) as it relates to Backend Development & Data Science.
-                </p>
-                <br />
-                My name you already know, what you don't know is i've been chasing my dreams with technology since December 2018, 
-                the rest you'll find out if you're <b>lucky</b> enough to work with me.
+                <div className="a-award">
+                    <img src={Goal} alt="" className="a-award-img" />
+                    <div className="a-award-texts">
+                        <h4 className="a-award-title">Aspiration</h4>
+                        <p className="a-award-desc">
+                            I seek specialization and i'm currently traversing the ecosystem in search of my niche.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

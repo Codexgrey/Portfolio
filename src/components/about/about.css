@@ -1,5 +1,5 @@
 .a {
-    height: 100vh;
+    height: 110vh;
     display: flex;
     align-items: center;
 }
@@ -39,8 +39,8 @@
 }
   
 .a-award-img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 20px;
 }
   
@@ -57,7 +57,7 @@
 }
   
 .a-award{
-      margin-top: 50px;
+      margin-top: 30px;
       display: flex;
       align-items: center;
       justify-content: space-between;
