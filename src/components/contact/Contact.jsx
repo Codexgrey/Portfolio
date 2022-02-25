@@ -6,36 +6,38 @@ import Git from "../../img/github.png";
 import Email from "../../img/email.png";
 import LinkedIn from "../../img/linkedin.png";
 import Address from "../../img/placeholder.png";
-// import { useContext, useRef, useState } from "react";
-// import emailjs from "emailjs-com";
+import { useContext, useRef, useState } from "react";
+
+// email server provider
+import emailjs from "@emailjs/browser"; 
 // import { ThemeContext } from "../../context";
 
 
 const Contact = () => {
-  // const formRef = useRef();
-  // const [done, setDone] = useState(false)
+  const formRef = useRef();
+  const [done, setDone] = useState(false)
   // const theme = useContext(ThemeContext);
   // const darkMode = theme.state.darkMode;
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   emailjs
-  //     .sendForm(
-  //       "service_rrvnzco",
-  //       "template_3v5nih4",
-  //       formRef.current,
-  //       "user_DrriDPTGKO2Zj4RDXCA6W"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //         setDone(true)
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
+  // to handle data submission
+  const handleSubmit = (e) => {
+    // to prevent page refresh
+    e.preventDefault();
+
+    // using emaijjs server provider
+    emailjs
+      .sendForm("service_tgq7ueb", "template_z1ungnj", formRef.current, "user_OGmoEjgJ7GJmAB9MjFi2W")
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true)
+        },
+
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <div className="c">
@@ -76,13 +78,15 @@ const Contact = () => {
             <b>What’s your challenge?</b> Get in touch. Let's design, 
             build, engineer a suitable solution.
           </p>
-          <form /** </div>ref={formRef} onSubmit={handleSubmit}*/>
+
+          {/* using ref hook to take inputs */}
+          <form ref={formRef} onSubmit={handleSubmit}>
             <input /** style={{backgroundColor: darkMode && "#333"}}*/ type="text" placeholder="Name" name="user_name" />
             <input /** style={{backgroundColor: darkMode && "#333"}}*/ type="text" placeholder="Subject" name="user_subject" />
             <input /** style={{backgroundColor: darkMode && "#333"}}*/ type="text" placeholder="Email" name="user_email" />
             <textarea /** style={{backgroundColor: darkMode && "#333"}}*/ rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
-            {/* {done && "Thank you..."} */}
+            {done && "Thank you..."}
           </form>
         </div>
       </div>
