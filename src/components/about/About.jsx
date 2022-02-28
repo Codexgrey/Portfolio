@@ -23,7 +23,7 @@ const About = () => {
 
             <div className="a-desc">
                 <p>
-                    I wear many hats - a designer, developer, engineer etc.
+                    I wear many hats - a designer, developer, engineer etc...
                     The common theme in these facades is my hunger
                     to upskill, to grow, be really good at what i do!
                     <br />
