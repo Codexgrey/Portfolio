@@ -111,12 +111,30 @@
     }
   
     .i-left-wrapper {
-    
       padding: 10px;
       align-items: center;
       justify-content: center;
       text-align: center;
       height: 100%;
+    }
+  
+    .i-desc{
+      display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .i {
+      flex-direction: column;
+    }
+  
+    .i-left-wrapper {
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 70%;
     }
   
     .i-desc{

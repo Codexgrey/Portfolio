@@ -36,6 +36,13 @@
     transform: translateY(-100%);
 }
   
+@media screen and (max-width: 1200px) {
+    .ds {
+      width: 40%;
+      height: 20vh;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .ds {
       width: 40%;

@@ -72,6 +72,22 @@
     color: #fff;
 }
 
+@media screen and (max-width: 1200px) {
+    .d {
+      width: 40%;
+      height: 20vh;
+    }
+
+    .d-cta {
+        display: flex;
+        gap: 1rem;
+        position: absolute;
+        top: 75%;
+        left: 15%;
+        right: 2.5%;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .d {
       width: 40%;
@@ -79,9 +95,38 @@
     }
 
     .d-cta {
-        display: none;
+        display: flex;
+        gap: .50rem;
+        position: absolute;
+        top: 70%;
+        left: 7.5%;
+        right: 5%;
     }
+
+    .d-btn {
+        width: max-content;
+        background-color: #fff;
+        color: rgb(77, 87, 70);
+        padding: .20rem .35rem;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        border: 1.5px solid rgb(77, 87, 70);
+        text-decoration: none;
+    }
+      
+    .d-btn-primary {
+        width: max-content;
+        padding: .20rem .35rem;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        background-color: rgb(77, 87, 70);
+        text-decoration: none;
+        color: #fff;
+    }
+    
 }
+
+
 
 /* 
 gold - rgb(230, 206, 126) 

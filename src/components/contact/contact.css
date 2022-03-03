@@ -98,10 +98,15 @@ button {
     cursor: pointer;
 }
   
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 1200px) {
+    .c {
+      height: 60vh;
+    }
+
     .c-wrapper {
-      flex-direction: column;
-      padding: 0px 50px;
+      flex-direction: row;
+      padding: 50px 50px;
     }
   
     .c-title {
@@ -109,27 +114,28 @@ button {
     }
   
     .c-info-item {
-      margin: 20px 0px;
+      margin: 30px 0px;
       width: 100%;
     }
   
     .c-desc {
       display: none;
     }
-  
+    
     form {
+      /* width: max-content; */
       margin-top: 0px;
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
     }
-  
+    
     input {
       width: 35%;
       height: 40px;
       margin: 10px;
       margin-left: 0;
     }
-  
+    
     button {
       margin-top: 10px;
     }
@@ -137,4 +143,51 @@ button {
     #cv {
       margin-top: 10px;
     }
-}
+  }
+
+
+  @media screen and (max-width: 480px) {
+      .c {
+        height: 100%;
+      }
+    
+      .c-wrapper {
+        flex-direction: column;
+        padding: 0px 50px;
+      }
+    
+      .c-title {
+        font-size: 30px;
+      }
+    
+      .c-info-item {
+        margin: 20px 0px;
+        width: 100%;
+      }
+    
+      .c-desc {
+        display: none;
+      }
+    
+      form {
+        width: max-content;
+        margin-top: 0px;
+        display: flex;
+        /* flex-wrap: wrap; */
+      }
+    
+      input {
+        width: 35%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0;
+      }
+    
+      button {
+        margin-top: 10px;
+      }
+  
+      #cv {
+        margin-top: 10px;
+      }
+  }

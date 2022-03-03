@@ -31,31 +31,31 @@ export const devworks = [
         id: 3,
         title: "Todo List API",
         img: "https://drive.google.com/uc?export=view&id=1stphOcBUdZZOhEqJYp-a_FnQ-Z49mOSo",
-        link: "",
-        repo: "",
+        link: "https://cg-todo-app.herokuapp.com/",
+        repo: "https://github.com/Codexgrey/To-Do-List-API-",
     },
 
     {
         id: 4,
         title: "Yummy Nigeria - Recipes Blog and API",
         img: "https://drive.google.com/uc?export=view&id=157eFM-FLiL8bWQKbqSyBEAod4NcyDwJP",
-        link: "",
-        repo: "",
+        link: "https://yummy-ng-app.herokuapp.com/",
+        repo: "https://github.com/Codexgrey/Yummy-Nigeria-",
     },
 
     {
         id: 5,
-        title: "Javvscript - PIG GAME APP",
+        title: "Javascript - PIG GAME APP",
         img: "https://drive.google.com/uc?export=view&id=1fbNd1ptDOKNF2Im89DTGMYThDSo-PcBc",
-        link: "",
-        repo: "",
+        link: "https://codexgrey.github.io/The-PIG-Game/",
+        repo: "https://github.com/Codexgrey/The-PIG-Game",
     },
 
     {
         id: 6,
         title: "BUDGET APP",
         img: "https://drive.google.com/uc?export=view&id=1Uo4afEOnX0vPMBcEAww7oJim5ZT4r8yn",
-        link: "",
-        repo: "",
+        link: "https://codexgrey.github.io/Budget-App/",
+        repo: "https://github.com/Codexgrey/Budget-App",
     },
 ];
