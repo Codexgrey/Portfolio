@@ -2,6 +2,7 @@
 import React from 'react'
 import './intro.css';
 import me from "../../img/me2.png"
+import CV from "../../img/CV.pdf"
 
 const Intro = () => {
   return (
@@ -26,6 +27,7 @@ const Intro = () => {
                     I design, develop and maintain services for clients of all sizes;
                     specializing in creating stylish, modern UI/UX, web services and solutions.
                 </p>
+                <a className="cv" href={CV} download>Download CV</a>
             </div>
 
             {/* SVG to indicate scroll */}

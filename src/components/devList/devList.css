@@ -1,0 +1,41 @@
+.dv {
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+.dv-texts {
+    width: 65%;
+}
+  
+.dv-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+  
+.dv-desc {
+    margin: 20px 0px;
+}
+  
+.dv-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+@media screen and (max-width: 480px) {
+    .dv {
+      padding: 10px;
+    }
+  
+    .dv-texts {
+      width: 100%;
+    }
+  
+    .dv-desc {
+      display: none;
+    }
+}

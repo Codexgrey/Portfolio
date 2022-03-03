@@ -6,6 +6,7 @@ import Git from "../../img/github.png";
 import Email from "../../img/email.png";
 import LinkedIn from "../../img/linkedin.png";
 import Address from "../../img/placeholder.png";
+import CV from "../../img/CV.pdf"
 import { useContext, useRef, useState } from "react";
 
 // email server provider
@@ -88,8 +89,9 @@ const Contact = () => {
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
             <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
-            <button>Submit</button>
-            {done && " Thank you."}
+            <button>Submit</button> 
+            {done}
+            <a id="cv" href={CV} download>Download CV</a>
           </form>
         </div>
       </div>

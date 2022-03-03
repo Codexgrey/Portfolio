@@ -1,4 +1,4 @@
-.dv {
+.d {
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
@@ -9,7 +9,7 @@
 }
   
 /* little browser look, top of the card */
-.dv-browser {
+.d-browser {
     height: 20px;
     background-color: rgb(243, 242, 242);
     display: flex;
@@ -19,7 +19,7 @@
     z-index: 2;
 }
   
-.dv-circle {
+.d-circle {
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -27,17 +27,17 @@
     background-color: white;
 }
   
-.dv-img {
+.d-img {
     width: 100%;
     transition: all 15s ease;
 }
   
-.dv:hover .dv-img {
+.d:hover .d-img {
     transform: translateY(-100%);
 }
   
 @media screen and (max-width: 480px) {
-    .dv {
+    .d {
       width: 40%;
       height: 20vh;
     }

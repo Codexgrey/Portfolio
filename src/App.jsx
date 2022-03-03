@@ -1,8 +1,10 @@
 import About from "./components/about/About.jsx";
 import Intro from "./components/intro/Intro.jsx";
 import DesignList from "./components/designList/DesignList.jsx";
+import DevList from "./components/devList/DevList.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Toggle from "./components/toggle/Toggle.jsx";
+
 
 // using context API
 import { useContext } from "react";
@@ -27,6 +29,7 @@ const App = () => {
         <Intro />
         <About />
         <DesignList />
+        <DevList />
         <Contact />
       </div>
     )
