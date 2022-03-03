@@ -13,42 +13,48 @@
 export const devworks = [
     {
         id: 1,
-        img: "",
-        link: "",
-        repo: "",
+        title: "Ecommerce Website",
+        img: "https://drive.google.com/uc?export=view&id=1VY2tw7lV67hzM7JQk3xnPKAiCDnIw5-x",
+        link: "https://primestoresuk.netlify.app/",
+        repo: "https://github.com/Codexgrey/CAPSTONE-ECommerce-Project",
     },
 
     {
         id: 2,
-        img: "",
-        link: "",
-        repo: "",
+        title: "My portfolio",
+        img: "https://drive.google.com/uc?export=view&id=1z8z2NqL_Qnn2FrlqNgCycHmGFYDL5X9n",
+        link: "craft@collins.netlify.app",
+        repo: "https://github.com/Codexgrey/Product-Design-Portfolio",
     },
 
     {
         id: 3,
-        img: "",
+        title: "Todo List API",
+        img: "https://drive.google.com/uc?export=view&id=1stphOcBUdZZOhEqJYp-a_FnQ-Z49mOSo",
         link: "",
         repo: "",
     },
 
     {
         id: 4,
-        img: "",
+        title: "Yummy Nigeria - Recipes Blog and API",
+        img: "https://drive.google.com/uc?export=view&id=157eFM-FLiL8bWQKbqSyBEAod4NcyDwJP",
         link: "",
         repo: "",
     },
 
     {
         id: 5,
-        img: "",
+        title: "Javvscript - PIG GAME APP",
+        img: "https://drive.google.com/uc?export=view&id=1fbNd1ptDOKNF2Im89DTGMYThDSo-PcBc",
         link: "",
         repo: "",
     },
 
     {
         id: 6,
-        img: "",
+        title: "BUDGET APP",
+        img: "https://drive.google.com/uc?export=view&id=1Uo4afEOnX0vPMBcEAww7oJim5ZT4r8yn",
         link: "",
         repo: "",
     },

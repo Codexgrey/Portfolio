@@ -2,19 +2,20 @@
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
-    border: 2px solid rgb(243, 242, 242);
+    border: 2px solid rgb(77, 87, 70);
     border-radius: 10px 10px 0px 0px;
     /* for img */
     overflow: hidden; 
+    position: relative;
 }
   
 /* little browser look, top of the card */
 .d-browser {
     height: 20px;
-    background-color: rgb(243, 242, 242);
+    background-color: rgb(77, 87, 70);
     display: flex;
     align-items: center;
-    /* to stop photos overflowing the browser feel */
+    /* to stop photos overflowing the browser feel */ 
     position: sticky;
     z-index: 2;
 }
@@ -27,18 +28,63 @@
     background-color: white;
 }
   
+/* .container {
+    position: relative;
+    width: 100%;
+} */
+
 .d-img {
     width: 100%;
-    transition: all 15s ease;
+    height: auto;
+    transition: all 10s ease;
+}
+
+.d-cta {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 75%;
+    left: 25%;
 }
   
 .d:hover .d-img {
     transform: translateY(-100%);
 }
   
+.d-btn {
+    width: max-content;
+    background-color: #fff;
+    color: rgb(77, 87, 70);
+    padding: .40rem .55rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1.5px solid rgb(77, 87, 70);
+    text-decoration: none;
+}
+  
+.d-btn-primary {
+    width: max-content;
+    padding: .40rem .55rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    background-color: rgb(77, 87, 70);
+    text-decoration: none;
+    color: #fff;
+}
+
 @media screen and (max-width: 480px) {
     .d {
       width: 40%;
       height: 20vh;
     }
+
+    .d-cta {
+        display: none;
+    }
 }
+
+/* 
+gold - rgb(230, 206, 126) 
+milk - rgb(243, 242, 242)
+green - #59b256
+*/

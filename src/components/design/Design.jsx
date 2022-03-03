@@ -6,14 +6,14 @@ import "./design.css";
 const Design = ({img, link}) => {
   return (
     // cards for each design
-    <div className='d'>
-        <div className="d-browser">
-            <div className="d-circle"></div>
-            <div className="d-circle"></div>
-            <div className="d-circle"></div>
+    <div className="ds">
+        <div className="ds-browser">
+            <div className="ds-circle"></div>
+            <div className="ds-circle"></div>
+            <div className="ds-circle"></div>
         </div>
         <a href={link} target="_blank" rel="noreferrer">
-          <img src={img} alt="UI/UX Design" className="d-img" />
+          <img src={img} alt="UI/UX Design" className="ds-img" />
         </a>
     </div> 
   )

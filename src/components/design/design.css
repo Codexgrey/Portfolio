@@ -1,4 +1,4 @@
-.d {
+.ds {
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
@@ -9,7 +9,7 @@
 }
   
 /* little browser look, top of the card */
-.d-browser {
+.ds-browser {
     height: 20px;
     background-color: rgb(243, 242, 242);
     display: flex;
@@ -19,7 +19,7 @@
     z-index: 2;
 }
   
-.d-circle {
+.ds-circle {
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -27,17 +27,17 @@
     background-color: white;
 }
   
-.d-img {
+.ds-img {
     width: 100%;
     transition: all 15s ease;
 }
   
-.d:hover .d-img {
+.ds:hover .ds-img {
     transform: translateY(-100%);
 }
   
 @media screen and (max-width: 480px) {
-    .d {
+    .ds {
       width: 40%;
       height: 20vh;
     }
