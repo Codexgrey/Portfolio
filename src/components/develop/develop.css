@@ -84,7 +84,7 @@
         /* gap: 20px; */
         position: absolute;
         top: 75%;
-        left: 13%;
+        left: 15%;
         /* right: 2.5%; */
     }
       
@@ -105,30 +105,17 @@
         gap: .50rem;
         position: absolute;
         top: 75%;
-        left: 12%;
-        right: 10%;
+        left: 10%;
         font-size: small;
     }
 
     .d-btn {
-        width: max-content;
-        background-color: #fff;
-        color: rgb(114, 123, 108);
         padding: .15rem .25rem;
-        border-radius: 0.3rem;
-        cursor: pointer;
-        border: 1.5px solid rgb(114, 123, 108);
-        text-decoration: none;
     }
       
     .d-btn-primary {
-        width: max-content;
-        padding: .15rem .25rem;
-        border-radius: 0.3rem;
-        cursor: pointer;
-        background-color: rgb(114, 123, 108);
-        text-decoration: none;
-        color: #fff;
+        padding: .20rem .25rem;
+        margin-left: 5px;
     }
     
 }
