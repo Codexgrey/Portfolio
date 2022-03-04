@@ -2,7 +2,7 @@
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
-    border: 2px solid rgb(145, 150, 145);
+    border: 2px solid rgb(114, 123, 108);
     border-radius: 10px 10px 0px 0px;
     /* for img */
     overflow: hidden; 
@@ -12,7 +12,7 @@
 /* little browser look, top of the card */
 .d-browser {
     height: 20px;
-    background-color: rgb(145, 150, 145);
+    background-color: rgb(114, 123, 108);
     display: flex;
     align-items: center;
     /* to stop photos overflowing the browser feel */ 
@@ -54,11 +54,11 @@
 .d-btn {
     width: max-content;
     background-color: #fff;
-    color: rgb(145, 150, 145);
+    color: rgb(114, 123, 108);
     padding: .40rem .55rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1.5px solid rgb(145, 150, 145);
+    border: 1.5px solid rgb(114, 123, 108);
     text-decoration: none;
 }
   
@@ -67,7 +67,7 @@
     padding: .40rem .55rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    background-color: rgb(145, 150, 145);
+    background-color: rgb(114, 123, 108);
     text-decoration: none;
     color: #fff;
 }
@@ -106,11 +106,11 @@
     .d-btn {
         width: max-content;
         background-color: #fff;
-        color: rgb(145, 150, 145);
+        color: rgb(114, 123, 108);
         padding: .20rem .35rem;
         border-radius: 0.4rem;
         cursor: pointer;
-        border: 1.5px solid rgb(145, 150, 145);
+        border: 1.5px solid rgb(114, 123, 108);
         text-decoration: none;
     }
       
@@ -119,7 +119,7 @@
         padding: .20rem .35rem;
         border-radius: 0.4rem;
         cursor: pointer;
-        background-color: rgb(145, 150, 145);
+        background-color: rgb(114, 123, 108);
         text-decoration: none;
         color: #fff;
     }
