@@ -24,7 +24,7 @@ export const devworks = [
         title: "My portfolio",
         img: "https://drive.google.com/uc?export=view&id=1z8z2NqL_Qnn2FrlqNgCycHmGFYDL5X9n",
         link: "craft@collins.netlify.app",
-        repo: "https://github.com/Codexgrey/Product-Design-Portfolio",
+        repo: "https://github.com/Codexgrey/Portfolio",
     },
 
     {
