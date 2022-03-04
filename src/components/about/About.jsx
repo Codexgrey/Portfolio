@@ -42,7 +42,8 @@ const About = () => {
                     <div className="a-award-texts">
                         <h4 className="a-award-title">Aspiration</h4>
                         <p className="a-award-desc">
-                            I seek specialization and i'm currently traversing the ecosystem in search of my niche.
+                            I seek specialization and i'm currently traversing <br /> 
+                            the ecosystem in search of my niche.
                         </p>
                     </div>
                 </div>

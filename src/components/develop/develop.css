@@ -81,10 +81,10 @@
 
     .d-cta {
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
         position: absolute;
         top: 75%;
-        left: 15%;
+        left: 13%;
         right: 2.5%;
     }
 }

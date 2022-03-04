@@ -89,12 +89,28 @@
         height: 30vh;
     }
 
-    .a-card.bg, .a-award {
+    .a-card.bg {
         display: none;
     }
 
     .a-right{
         padding: 20px;
+    }
+
+    .a-award {
+        margin-top: 50px;
+    }
+
+    .a-award-img {
+        width: 75px;
+        height: 75px;
+        border-radius: 20px;
+        margin-left: 15%;
+    }
+
+    .a-award-texts{
+        width: 55%;
+        margin-right: 15%;
     }
 }
   
