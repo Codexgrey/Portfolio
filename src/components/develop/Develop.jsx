@@ -14,7 +14,7 @@ const Develop = ({ title, img, link, repo}) => {
         </div>
 
         <div className="container">
-          <img src={img} alt={title} className="d-img"/>
+          <img src={img} alt={title} className="d-img" />
         </div>
 
         <div className="d-cta">
