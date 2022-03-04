@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.56596015.chunk.css",
+    "main.js": "/Portfolio/static/js/main.06d1b69e.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.06d1b69e.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.163f731f.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.163f731f.js.map",
+    "static/js/2.5be05e41.chunk.js": "/Portfolio/static/js/2.5be05e41.chunk.js",
+    "static/js/2.5be05e41.chunk.js.map": "/Portfolio/static/js/2.5be05e41.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.56596015.chunk.css.map": "/Portfolio/static/css/main.56596015.chunk.css.map",
+    "static/js/2.5be05e41.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5be05e41.chunk.js.LICENSE.txt",
+    "static/media/CV.4fe9a738.pdf": "/Portfolio/static/media/CV.4fe9a738.pdf",
+    "static/media/crescent-moon.3bea3d39.png": "/Portfolio/static/media/crescent-moon.3bea3d39.png",
+    "static/media/github.a855c397.png": "/Portfolio/static/media/github.a855c397.png",
+    "static/media/linkedin.86eaaabc.png": "/Portfolio/static/media/linkedin.86eaaabc.png",
+    "static/media/me.d50663e2.png": "/Portfolio/static/media/me.d50663e2.png",
+    "static/media/me2.c04080dd.png": "/Portfolio/static/media/me2.c04080dd.png",
+    "static/media/placeholder.c92e83cf.png": "/Portfolio/static/media/placeholder.c92e83cf.png",
+    "static/media/sun.d07c9ece.png": "/Portfolio/static/media/sun.d07c9ece.png",
+    "static/media/target.98a75761.png": "/Portfolio/static/media/target.98a75761.png",
+    "static/media/telephone.73882f6e.png": "/Portfolio/static/media/telephone.73882f6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.163f731f.js",
+    "static/js/2.5be05e41.chunk.js",
+    "static/css/main.56596015.chunk.css",
+    "static/js/main.06d1b69e.chunk.js"
+  ]
+}
