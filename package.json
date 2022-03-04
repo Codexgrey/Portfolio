@@ -1,6 +1,7 @@
 {
   "name": "new",
   "version": "0.1.0",
+  "homepage": "https://Codexgrey.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
@@ -8,12 +9,15 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "css-loader": "^6.6.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
