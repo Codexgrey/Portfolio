@@ -28,7 +28,7 @@ const About = () => {
                     to upskill, to grow, be really good at what i do!
                     <br />
                     <br />
-                    My motto <b>Kaizen</b>, is Japanese for <em>Continuous Improvement</em>.
+                    My motto <b>Kaizen</b>, is Japanese for <b>Continuous Improvement</b>.
                     I'm skilled in UI/UX design & principles. Proficient in javascript,
                     react, python, django and others.
                     <br />
