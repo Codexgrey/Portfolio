@@ -141,7 +141,7 @@ button {
       font-weight: 500;
       font-size: 16px;
       padding: 10px;
-      width: 60%;
+      width: 50%;
     }
 
     #cv {
@@ -197,7 +197,6 @@ button {
       button {
         padding: 10px;
         width: 50%;
-        width: 60%;
       }
   
       #cv {

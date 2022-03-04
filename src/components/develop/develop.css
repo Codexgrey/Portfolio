@@ -75,24 +75,29 @@
 
 @media screen and (max-width: 1028px) {
     .d {
-      width: 40%;
-      height: 20vh;
+        width: 40%;
+        height: 20vh;
     }
 
     .d-cta {
         display: flex;
-        gap: 20px;
+        /* gap: 20px; */
         position: absolute;
         top: 75%;
         left: 13%;
         /* right: 2.5%; */
     }
+      
+    .d-btn-primary {
+        margin-left: 17.5px;
+    }
+    
 }
 
 @media screen and (max-width: 480px) {
     .d {
-      width: 40%;
-      height: 20vh;
+        width: 40%;
+        height: 20vh;
     }
 
     .d-cta {
