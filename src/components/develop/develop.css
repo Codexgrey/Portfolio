@@ -98,17 +98,18 @@
         display: flex;
         gap: .50rem;
         position: absolute;
-        top: 70%;
-        left: 7.5%;
-        right: 5%;
+        top: 75%;
+        left: 12%;
+        right: 10%;
+        font-size: small;
     }
 
     .d-btn {
         width: max-content;
         background-color: #fff;
         color: rgb(114, 123, 108);
-        padding: .20rem .35rem;
-        border-radius: 0.4rem;
+        padding: .15rem .25rem;
+        border-radius: 0.3rem;
         cursor: pointer;
         border: 1.5px solid rgb(114, 123, 108);
         text-decoration: none;
@@ -116,8 +117,8 @@
       
     .d-btn-primary {
         width: max-content;
-        padding: .20rem .35rem;
-        border-radius: 0.4rem;
+        padding: .15rem .25rem;
+        border-radius: 0.3rem;
         cursor: pointer;
         background-color: rgb(114, 123, 108);
         text-decoration: none;
