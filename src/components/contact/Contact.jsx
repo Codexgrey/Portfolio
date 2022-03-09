@@ -25,7 +25,7 @@ const Contact = () => {
     // to prevent page refresh
     e.preventDefault();
 
-    // using emaijjs server provider
+    // using emaijjs server provider: service ID, template ID, - , user ID
     emailjs
       .sendForm("service_tgq7ueb", "template_z1ungnj", formRef.current, "user_OGmoEjgJ7GJmAB9MjFi2W")
       .then(
@@ -85,10 +85,10 @@ const Contact = () => {
           {/* using ref hook to take inputs */}
           <form ref={formRef} onSubmit={handleSubmit}>
             {/* if darkMode, bgc - #333 */}
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
+            <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Name" name="user_name" />
+            <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Subject" name="user_subject" />
+            <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Email" name="user_email" />
+            <textarea style={{backgroundColor: darkMode && "#fff"}} rows="5" placeholder="Message" name="message" />
             <button>Submit</button> 
             {done}
             <a id="cv" href={CV} download>Download CV</a>
