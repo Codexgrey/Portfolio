@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.619b0b98.chunk.css",
-    "main.js": "/Portfolio/static/js/main.36c3a3ca.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.36c3a3ca.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.e0a76208.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e0a76208.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.163f731f.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.163f731f.js.map",
     "static/js/2.41e3db8b.chunk.js": "/Portfolio/static/js/2.41e3db8b.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/Portfolio/index.html",
     "static/css/main.619b0b98.chunk.css.map": "/Portfolio/static/css/main.619b0b98.chunk.css.map",
     "static/js/2.41e3db8b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.41e3db8b.chunk.js.LICENSE.txt",
-    "static/media/CV.6c478797.pdf": "/Portfolio/static/media/CV.6c478797.pdf",
+    "static/media/CV.760859b1.pdf": "/Portfolio/static/media/CV.760859b1.pdf",
     "static/media/crescent-moon.3bea3d39.png": "/Portfolio/static/media/crescent-moon.3bea3d39.png",
     "static/media/github.a855c397.png": "/Portfolio/static/media/github.a855c397.png",
     "static/media/linkedin.86eaaabc.png": "/Portfolio/static/media/linkedin.86eaaabc.png",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.163f731f.js",
     "static/js/2.41e3db8b.chunk.js",
     "static/css/main.619b0b98.chunk.css",
-    "static/js/main.36c3a3ca.chunk.js"
+    "static/js/main.e0a76208.chunk.js"
   ]
 }
