@@ -47,16 +47,8 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project and other possibilities</h1>
+          <h1 className="c-title">Thanks for dropping by my neck of the woods. Ciao!</h1>
           <div className="c-info">
-            <div className="c-info-item">
-               <img src={Phone} alt="Phone Number" className="c-icon" />
-               +90 539 117 53 64
-            </div>
-            <div className="c-info-item">
-               <img src={Email} alt="Mail" className="c-icon" />
-               thecodexgrey@gmail.com
-            </div>
             <div className="c-info-item">
               <a href="http://github.com/Codexgrey" target="_blank" rel="noreferrer" >
                 <img src={Git} alt="Github Account" className="c-icon" />
@@ -70,6 +62,14 @@ const Contact = () => {
               LinkedIn
             </div>
             <div className="c-info-item">
+               <img src={Phone} alt="Phone Number" className="c-icon" />
+               +90 539 117 53 64
+            </div>
+            <div className="c-info-item">
+               <img src={Email} alt="Mail" className="c-icon" />
+               thecodexgrey@gmail.com
+            </div>
+            <div className="c-info-item">
                <img src={Address} alt="Address" className="c-icon" />
                 Nicosia, Cyprus.
             </div>
@@ -78,8 +78,7 @@ const Contact = () => {
 
         <div className="c-right">
           <p className="c-desc">
-            <b>What's your challenge?</b> Get in touch. Let's design, 
-            build, engineer a suitable solution.
+            <b>What are you working on?</b> Get in touch. I'd love to be a part of whatever it is you're designing or building.
           </p>
 
           {/* using ref hook to take inputs */}
