@@ -31,18 +31,18 @@ export const devworks = [
 
     {
         id: 3,
-        title: "Todo List API",
-        img: "https://www.dropbox.com/s/ssqryop4hl9y5in/screencapture-cg-todo-app-herokuapp-2022-03-03-18_01_55.png?raw=1",
-        link: "https://cg-todo-app.herokuapp.com/",
-        repo: "https://github.com/Codexgrey/To-Do-List-API-",
+        title: "Events Website",
+        img: "https://www.dropbox.com/scl/fi/gvuzb4a5y9zshtnegoulp/screencapture-codexgrey-github-io-KAC233-2024-04-03-15_28_32.png?rlkey=orikfj42fbmrz3vcjmte1me9o&dl=0",
+        link: "https://codexgrey.github.io/KAC233/",
+        repo: "https://github.com/Codexgrey/KAC233",
     },
 
     {
         id: 4,
-        title: "Yummy Nigeria - Recipes Blog and API",
-        img: "https://www.dropbox.com/s/oynft8voap3cqid/screencapture-yummy-ng-app-herokuapp-2022-03-03-17_57_56.png?raw=1",
-        link: "https://yummy-ng-app.herokuapp.com/",
-        repo: "https://github.com/Codexgrey/Yummy-Nigeria-",
+        title: "Social-Proof-Section",
+        img: "https://www.dropbox.com/scl/fi/timpkfh7d8coj6kqtacze/screencapture-codexgrey-github-io-Social-Proof-Section-2024-04-03-15_34_10.png?rlkey=o74lgpx4tydkc2t77wsphpqfs&dl=0",
+        link: "https://codexgrey.github.io/Social-Proof-Section/",
+        repo: "https://github.com/Codexgrey/Social-Proof-Section",
     },
 
     {
