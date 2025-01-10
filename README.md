@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `yarn start Computer Engineer`
 
 Runs the app in the `well-paid` mode.\
-Open [vacancy](Job_Offer) to view him in the workplace.
+Open [vacancy](https://www.linkedin.com/in/collinsovuakporaye/) to view him in the workplace.
 
 The page will reload as long as your offer is acceptable.\
 
@@ -17,7 +17,7 @@ The page will reload as long as your offer is acceptable.\
 ### `yarn start Software Engineer`
 
 Runs the app in the `well-paid` mode.\
-Open [vacancy](Job_Offer) to view him in the workplace.
+Open [vacancy](https://www.linkedin.com/in/collinsovuakporaye/) to view him in the workplace.
 
 The page will reload as long as your offer is acceptable.\
 
@@ -25,7 +25,7 @@ The page will reload as long as your offer is acceptable.\
 ### `yarn start DevOps Engineer`
 
 Runs the app in the `well-paid` mode.\
-Open [vacancy](Job_Offer) to view him in the workplace.
+Open [vacancy](https://www.linkedin.com/in/collinsovuakporaye/) to view him in the workplace.
 
 The page will reload as long as your offer is acceptable.\
 
@@ -33,7 +33,7 @@ The page will reload as long as your offer is acceptable.\
 ## `yarn employ`
 
 Launches the test runner in competitive market mode.\
-See the section about [Contact Me](+905391175364,thecodexgrey@gmail.com) for more information.
+See the section about [Contact Me](thecodexgrey@gmail.com) for more information.
 
 
 ### `yarn build`
@@ -44,9 +44,9 @@ He correctly bundles and Reacts in production mode and optimizes the build for t
 The build is minified and the filenames include the tasks.\
 Your app is ready to be deployed!
 
-See the section about [employment](letstalk.callme) for more information.
+See the section about [employment](https://codexgrey.github.io/Portfolio/) for more information.
 
 ### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**\
 **Note: Codexgrey goes on to be GREAT anyway!**
