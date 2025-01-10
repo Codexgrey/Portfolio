@@ -10,8 +10,7 @@ const DesignList = () => {
         <div className="dl-texts">
             <h1 className="dl-title">Design</h1>
             <p className="dl-desc">
-                This section showcases some of my <br />
-                works in User Interface and Experience Design. <br />
+                UI/UX exploration <br />
                 Click on a photo to visit my dribble account. <b>Enjoy!</b>
             </p>
         </div>

@@ -47,7 +47,7 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Thanks for dropping by my neck of the woods. Ciao!</h1>
+          <h1 className="c-title">Enjoy your day 🥂. Ciao!</h1>
           <div className="c-info">
             <div className="c-info-item">
               <a href="http://github.com/Codexgrey" target="_blank" rel="noreferrer" >
@@ -78,7 +78,7 @@ const Contact = () => {
 
         <div className="c-right">
           <p className="c-desc">
-            <b>What are you working on?</b> Get in touch. I'd love to be a part of whatever it is you're designing or building.
+            <b>Leave a message.</b>.
           </p>
 
           {/* using ref hook to take inputs */}

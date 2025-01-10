@@ -15,17 +15,16 @@ const Intro = () => {
 
                 <div className="i-title">
                     <div className="i-title-wrapper">
-                        <div className="i-title-item"> UI/UX Designer </div>
+                        <div className="i-title-item">Computer Engineer</div>
                         <div className="i-title-item">Software Engineer</div>
-                        <div className="i-title-item"> Data Scientist </div>
-                        <div className="i-title-item"> Leisure Writer </div>
+                        <div className="i-title-item">DevOps Engineer</div>
                         <div className="i-title-item">...</div>
                     </div>
                 </div>
 
                 <p className="i-desc">
                     I design, develop and maintain services for clients of all sizes;
-                    specializing in creating stylish, modern UI/UX, web services and solutions.
+                    specializing in web services and solutions.
                 </p>
                 <a className="cv" href={CV} download>Download CV</a>
             </div>

@@ -23,19 +23,17 @@ const About = () => {
 
             <div className="a-desc">
                 <p>
-                    I wear many hats - a designer, developer, engineer etc...
-                    The common theme in these facades is my hunger
-                    to upskill, to grow, be really good at what i do!
+                    I wear many hats - designer, developer, engineer etc...
+                    The common theme in these facades, is hunger...
+                    To upskill, To grow, be really good at what i do!
                     <br />
                     <br />
-                    My motto <b>Kaizen</b>, is Japanese for <b>Continuous Improvement</b>.
-                    I'm skilled in UI/UX design & principles. Proficient in javascript,
-                    react, python, django and others.
+                    At the core of my intellectual design is <b>Kaizen</b>, 
+                    Japanese for <b>Continuous Improvement</b>.
                     <br />
                     <br />
-                    You already know my name, what you don't know is
-                    i've been chasing my dreams with technology since December 2018,
-                    the rest you'll find out if you're lucky enough to work with me.
+                    Get in touch. 
+                    There's work to be done.
                 </p>
                 <div className="a-award">
                     <img src={Goal} alt="" className="a-award-img" />
