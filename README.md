@@ -33,7 +33,7 @@ The page will reload as long as your offer is acceptable.\
 ## `yarn employ`
 
 Launches the test runner in competitive market mode.\
-See the section about [Contact Me](thecodexgrey@gmail.com) for more information.
+See the section about [Contact Me](https://wa.me/+23408071332973) for more information.
 
 
 ### `yarn build`
