@@ -78,7 +78,7 @@ const Contact = () => {
 
         <div className="c-right">
           <p className="c-desc">
-            <b>Leave a message.</b>.
+            <b>Leave a message 📥</b>.
           </p>
 
           {/* using ref hook to take inputs */}

@@ -10,7 +10,7 @@ const DesignList = () => {
         <div className="dl-texts">
             <h1 className="dl-title">Design</h1>
             <p className="dl-desc">
-                Exploration. <br />
+                Artistic endeavour ✨ <br />
                 Photos are clickable...
             </p>
         </div>

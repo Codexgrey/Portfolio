@@ -28,8 +28,8 @@ const App = () => {
         <Toggle />
         <Intro />
         <About />
-        <DesignList />
         <DevList />
+        <DesignList />
         <Contact />
       </div>
     )
