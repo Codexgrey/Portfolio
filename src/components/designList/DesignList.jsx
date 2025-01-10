@@ -10,8 +10,8 @@ const DesignList = () => {
         <div className="dl-texts">
             <h1 className="dl-title">Design</h1>
             <p className="dl-desc">
-                UI/UX exploration <br />
-                Click on a photo to visit my dribble account. <b>Enjoy!</b>
+                Exploration. <br />
+                Photos are clickable...
             </p>
         </div>
 

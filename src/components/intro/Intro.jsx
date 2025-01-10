@@ -10,7 +10,7 @@ const Intro = () => {
         {/* splitting comp left, right with flexbox */}
         <div className="i-left">
             <div className="i-left-wrapper">
-                <h2 className="i-intro">Hello, My name is</h2>
+                <h2 className="i-intro">Hi, My name is</h2>
                 <h1 className="i-name">Collins Ovuakporaye</h1>
 
                 <div className="i-title">
@@ -18,13 +18,13 @@ const Intro = () => {
                         <div className="i-title-item">Computer Engineer</div>
                         <div className="i-title-item">Software Engineer</div>
                         <div className="i-title-item">DevOps Engineer</div>
-                        <div className="i-title-item">...</div>
+                        <div className="i-title-item">Just a chill guy...😎</div>
                     </div>
                 </div>
 
                 <p className="i-desc">
-                    I design, develop and maintain services for clients of all sizes;
-                    specializing in web services and solutions.
+                    I design, develop and maintain services for clients of all sizes. <br />
+                    Specializing in web services and solutions.
                 </p>
                 <a className="cv" href={CV} download>Download CV</a>
             </div>

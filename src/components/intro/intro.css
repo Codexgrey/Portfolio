@@ -40,7 +40,7 @@
 /* skills wrapper */
 .i-title-wrapper {
     height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+    animation: move 6s ease-in-out infinite alternate;
 }
 
 /* wrapper animation */

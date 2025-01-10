@@ -9,8 +9,8 @@ const DevList = () => {
         <div className="dv-texts">
             <h1 className="dv-title">Development</h1>
             <p className="dv-desc">
-                Dev Playground <br />
-                A few test runs... <b>Enjoy!</b>
+                Playground. <br />
+                A few test runs...
             </p>
         </div>
 
