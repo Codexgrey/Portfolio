@@ -11,7 +11,7 @@ In the project directory, you can run:
 Runs the app in the `well-paid` mode.\
 Open [vacancy](https://www.linkedin.com/in/collinsovuakporaye/) to view him in the workplace.
 
-The page will reload as long as your offer is acceptable.\
+The page will reload as long as your offer is acceptable.
 
 
 ### `yarn start Software Engineer`
@@ -19,7 +19,7 @@ The page will reload as long as your offer is acceptable.\
 Runs the app in the `well-paid` mode.\
 Open [vacancy](https://www.linkedin.com/in/collinsovuakporaye/) to view him in the workplace.
 
-The page will reload as long as your offer is acceptable.\
+The page will reload as long as your offer is acceptable.
 
 
 ### `yarn start DevOps Engineer`
@@ -27,7 +27,7 @@ The page will reload as long as your offer is acceptable.\
 Runs the app in the `well-paid` mode.\
 Open [vacancy](https://www.linkedin.com/in/collinsovuakporaye/) to view him in the workplace.
 
-The page will reload as long as your offer is acceptable.\
+The page will reload as long as your offer is acceptable.
 
 
 ## `yarn employ`
@@ -39,7 +39,8 @@ See the section about [Contact Me](https://wa.me/+23408071332973) for more infor
 ### `yarn build`
 
 Builds the app for production to the `company` folder.\
-He correctly bundles and Reacts in production mode and optimizes the build for the best performance.
+He correctly bundles and Reacts in production mode, \
+optimizing each build for the best performance.
 
 The build is minified and the filenames include the tasks.\
 Your app is ready to be deployed!
