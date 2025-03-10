@@ -1,7 +1,7 @@
 // setup functional component, import it to App.jsx for rendering
 import React from 'react'
 import './intro.css';
-import me from "../../img/me2.png"
+import me from "../../img/me1.png"
 import CV from "../../img/CV.pdf"
 
 const Intro = () => {
@@ -91,7 +91,7 @@ const Intro = () => {
          {/* Above the fold photo */}
         <div className="i-right">
             <div className="i-bg"></div>
-            <img src={me} alt="" className="i-img" />
+            <img src={me} alt="Jast a chill guy" className="i-img" />
         </div>
     </div>
   )
