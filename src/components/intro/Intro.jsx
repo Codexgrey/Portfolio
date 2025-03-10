@@ -91,7 +91,7 @@ const Intro = () => {
          {/* Above the fold photo */}
         <div className="i-right">
             <div className="i-bg"></div>
-            <img src={me} alt="Jast a chill guy" className="i-img" />
+            <img src={me} alt="Just a chill guy..." className="i-img" />
         </div>
     </div>
   )
