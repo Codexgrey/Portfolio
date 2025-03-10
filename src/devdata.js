@@ -3,12 +3,11 @@
 
     - Obtain the public link of your uploaded google drive image:
       e.g https://drive.google.com/file/d/1JP0HZf4Gd5d9ohXX6rVyuMwuZJ-369Bl/view?usp=sharing
-
+      
     - Extract the id from the link: id = 1JP0HZf4Gd5d9ohXX6rVyuMwuZJ-369Bl
-
-    - use react url = "https://drive.google.com/uc?export=view&id=INSERT_HERE_YOUR_GOOGLE_DRIVE_IMAGE_ID"
     
     - DROPBOX change end of link from "dl=0" to "raw=1"
+    - NOW* just -> remove "&st=76ttj6qk" and set dl=1
  */
 
 
@@ -16,7 +15,7 @@ export const devworks = [
     {
         id: 1,
         title: "NASA Search App",
-        img: "https://www.dropbox.com/scl/fi/nbds2p85fzpz64u7sg6c5/screencapture-codexgrey-github-io-NASA-Search.png?rlkey=jy0884mk7cf5fr6whj7nbqec4&st=76ttj6qk&dl=1",
+        img: "https://www.dropbox.com/scl/fi/nbds2p85fzpz64u7sg6c5/screencapture-codexgrey-github-io-NASA-Search.png?rlkey=jy0884mk7cf5fr6whj7nbqec4&dl=1",
         link: "https://codexgrey.github.io/NASA-Search/",
         repo: "https://github.com/Codexgrey/NASA-Search",
     },
