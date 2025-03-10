@@ -16,7 +16,7 @@ export const devworks = [
     {
         id: 1,
         title: "NASA Search App",
-        img: "https://www.dropbox.com/scl/fi/timpkfh7d8coj6kqtacze/screencapture-codexgrey-github-io-Social-Proof-Section-2024-04-03-15_34_10.png?rlkey=o74lgpx4tydkc2t77wsphpqfs&st=yyjag87j&dl=1",
+        img: "https://www.dropbox.com/scl/fi/nbds2p85fzpz64u7sg6c5/screencapture-codexgrey-github-io-NASA-Search.png?rlkey=jy0884mk7cf5fr6whj7nbqec4&st=76ttj6qk&dl=1",
         link: "https://codexgrey.github.io/NASA-Search/",
         repo: "https://github.com/Codexgrey/NASA-Search",
     },
