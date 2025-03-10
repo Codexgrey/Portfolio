@@ -15,10 +15,10 @@
 export const devworks = [
     {
         id: 1,
-        title: "Ecommerce Website",
-        img: "https://www.dropbox.com/s/8luykt7f2t2z4mo/screencapture-primestoresuk-netlify-app-2022-03-03-17_53_20.png?raw=1",
-        link: "https://primestoresuk.netlify.app/",
-        repo: "https://github.com/Codexgrey/CAPSTONE-ECommerce-Project",
+        title: "NASA Search App",
+        img: "https://www.dropbox.com/scl/fi/timpkfh7d8coj6kqtacze/screencapture-codexgrey-github-io-Social-Proof-Section-2024-04-03-15_34_10.png?rlkey=o74lgpx4tydkc2t77wsphpqfs&st=yyjag87j&dl=0",
+        link: "https://codexgrey.github.io/NASA-Search/",
+        repo: "https://github.com/Codexgrey/NASA-Search",
     },
 
     {
