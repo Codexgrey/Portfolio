@@ -23,8 +23,8 @@ const Intro = () => {
                 </div>
 
                 <p className="i-desc">
-                    I design, develop and maintain services for clients of all sizes. <br />
-                    Specializing in web services and solutions.
+                    I build cool stuff on the internet,<br />
+                    using software tools and applications for delivery.
                 </p>
                 <a className="cv" href={CV} download>Download CV</a>
             </div>
