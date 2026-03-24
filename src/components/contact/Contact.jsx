@@ -77,12 +77,12 @@ const Contact = () => {
         </div>
 
         <div className="c-right">
-          <p className="c-desc">
-            <b>Leave a message 📥</b>.
-          </p>
-
           {/* using ref hook to take inputs */}
           <form ref={formRef} onSubmit={handleSubmit}>
+            <p className="c-desc">
+              <b>Leave a message 📥</b>.
+            </p>
+            
             {/* if darkMode, bgc - #333 */}
             <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Name" name="user_name" />
             <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Subject" name="user_subject" />
