@@ -14,7 +14,7 @@
 export const devworks = [
     {
         id: 1,
-        title: "NASA Search App",
+        title: "NASA API Search",
         img: "https://www.dropbox.com/scl/fi/zw47ijzfztnnt14fcbbi0/screencapture-codexgrey-github-io-NASA-Search.png?rlkey=7c1mg93r2dsg57zjuzpk3tvrm&st=5ol6vubl&dl=1",
         link: "https://codexgrey.github.io/NASA-Search/",
         repo: "https://github.com/Codexgrey/NASA-Search",
@@ -38,7 +38,7 @@ export const devworks = [
 
     {
         id: 4,
-        title: "Social-Proof-Section",
+        title: "Social Proof Section",
         img: "https://www.dropbox.com/scl/fi/timpkfh7d8coj6kqtacze/screencapture-codexgrey-github-io-Social-Proof-Section-2024-04-03-15_34_10.png?rlkey=o74lgpx4tydkc2t77wsphpqfs&dl=1",
         link: "https://codexgrey.github.io/Social-Proof-Section/",
         repo: "https://github.com/Codexgrey/Social-Proof-Section",
