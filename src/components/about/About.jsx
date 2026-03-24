@@ -28,12 +28,12 @@ const About = () => {
                     To upskill, To grow, be really good at what i do!
                     <br />
                     <br />
-                    At the core of my intellectual design is <b>Kaizen</b>, <br />
-                    japanese for <b>Continuous Improvement</b>.
+                    What it boils down to, is a keen interest in exploring <br />
+                    the limits of my <b>Potential</b>.
                     <br />
                     <br />
                     Get in touch.<br />
-                    There's work to be done.
+                    Let's build great memories.
                 </p>
                 <div className="a-award">
                     <img src={Goal} alt="" className="a-award-img" />
