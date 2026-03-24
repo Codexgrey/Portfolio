@@ -23,7 +23,7 @@ export const devworks = [
     {
         id: 2,
         title: "My portfolio",
-        img: "https://www.dropbox.com/s/t99kdmfj10usgbl/screencapture-localhost-3000-2022-03-03-18_36_50.png?raw=1",
+        img: "https://www.dropbox.com/scl/fi/eiebsqv01wlz20an3uz4z/Portfolio.png?rlkey=c2jb41rdazhrluyfkdrdeyyql&st=ilw1y7ut&dl=1",
         link: "https://Codexgrey.github.io/Portfolio",
         repo: "https://github.com/Codexgrey/Portfolio",
     },
