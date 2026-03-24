@@ -47,7 +47,7 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Enjoy your day 🥂.</h1>
+          <h1 className="c-title">See you around... 🥂</h1>
           <div className="c-info">
             <div className="c-info-item">
               <a href="http://github.com/Codexgrey" target="_blank" rel="noreferrer" >

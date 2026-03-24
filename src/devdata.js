@@ -15,7 +15,7 @@ export const devworks = [
     {
         id: 1,
         title: "NASA Search App",
-        img: "https://www.dropbox.com/scl/fi/nbds2p85fzpz64u7sg6c5/screencapture-codexgrey-github-io-NASA-Search.png?rlkey=jy0884mk7cf5fr6whj7nbqec4&dl=1",
+        img: "https://www.dropbox.com/scl/fi/zw47ijzfztnnt14fcbbi0/screencapture-codexgrey-github-io-NASA-Search.png?rlkey=7c1mg93r2dsg57zjuzpk3tvrm&st=5ol6vubl&dl=1",
         link: "https://codexgrey.github.io/NASA-Search/",
         repo: "https://github.com/Codexgrey/NASA-Search",
     },
@@ -23,7 +23,7 @@ export const devworks = [
     {
         id: 2,
         title: "My portfolio",
-        img: "https://www.dropbox.com/scl/fi/eiebsqv01wlz20an3uz4z/Portfolio.png?rlkey=c2jb41rdazhrluyfkdrdeyyql&st=ilw1y7ut&dl=1",
+        img: "https://www.dropbox.com/scl/fi/qo8yxr7oyi0xmzy5h6xim/portfolio.png?rlkey=6tqa2e1350tqgboc0tcsf6dmh&st=0bmf4omj&dl=1",
         link: "https://Codexgrey.github.io/Portfolio",
         repo: "https://github.com/Codexgrey/Portfolio",
     },
@@ -31,7 +31,7 @@ export const devworks = [
     {
         id: 3,
         title: "Events Website",
-        img: "https://www.dropbox.com/scl/fi/gvuzb4a5y9zshtnegoulp/screencapture-codexgrey-github-io-KAC233-2024-04-03-15_28_32.png?rlkey=orikfj42fbmrz3vcjmte1me9o&dl=1",
+        img: "https://www.dropbox.com/scl/fi/epevcc78vtcfu90c0qbmv/screencapture-codexgrey-github-io-KAC233-2024-04-03-15_28_32.png?rlkey=gt0xnaw6bt0xfr532npba8tej&st=t0k5k6re&dl=1",
         link: "https://codexgrey.github.io/KAC233/",
         repo: "https://github.com/Codexgrey/KAC233",
     },
