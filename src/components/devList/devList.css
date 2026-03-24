@@ -34,8 +34,13 @@
     .dv-texts {
       width: 100%;
     }
+
+    .dv-title {
+      font-size: 2rem;
+      font-weight: bold;
+    }
   
     .dv-desc {
-      display: none;
+      font-size: 0.9rem;
     }
 }

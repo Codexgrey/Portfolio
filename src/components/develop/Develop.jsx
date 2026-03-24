@@ -7,6 +7,7 @@ const Develop = ({ title, img, link, repo}) => {
   return (
     // cards for each design
     <div className="d">
+        <h3 className="d-title">{title}</h3> 
         <div className="d-browser">
             <div className="d-circle"></div>
             <div className="d-circle"></div>

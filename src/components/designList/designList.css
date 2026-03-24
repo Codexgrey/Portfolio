@@ -35,7 +35,16 @@
       width: 100%;
     }
   
+    .dl-title {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  
     .dl-desc {
-      display: none;
+      font-size: 0.9rem;
+    }
+
+    strong {
+        font-size: 1.1rem;
     }
 }
