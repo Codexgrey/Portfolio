@@ -31,20 +31,20 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true)
+          setDone(true);
+          // resets text after hitting submit button
+          e.target.reset();
         },
 
         (error) => {
           console.log(error.text);
         }
       );
-      // resets text after hitting submit button
-      e.target.reset();
   };
 
   return (
     <div className="c">
-      <div className="c-bg"></div>
+      {/* <div className="c-bg"></div> */}
       <div className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">See you around... 🥂</h1>
@@ -88,9 +88,12 @@ const Contact = () => {
             <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Subject" name="user_subject" />
             <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Email" name="user_email" />
             <textarea style={{backgroundColor: darkMode && "#fff"}} rows="5" placeholder="Message" name="message" />
-            <button>Submit</button> 
-            {done}
-            <a id="cv" href={CV} download>Download CV</a>
+            
+            <div className="c-actions">
+              <button type="submit">Submit</button>
+              <a id="cv" href={CV} download>Download CV</a>
+            </div>
+            {done && <p className="c-success">Thank you for your message... 🥂</p>}
           </form>
         </div>
       </div>

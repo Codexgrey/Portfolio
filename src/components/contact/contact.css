@@ -51,7 +51,6 @@
 }
 
 #cv {
-  width: max-content;
   display: inline-block;
   color: #59b256;
   padding: 0.75rem 1.2rem;
@@ -59,7 +58,7 @@
   cursor: pointer;
   border: 1px solid #59b256;
   text-decoration: none;
-  margin-left: 20px; 
+  transition: all 0.2s ease;
 }
 
 #cv:hover {
@@ -72,32 +71,74 @@ form {
 }
   
 input {
-    width: 50%;
-    height: 50px;
-    border: none;
-    border-bottom: 1px solid black;
-    margin: 10px 0px;
-    font-size: 14px;
-    padding-left: 10px;
+  width: 70%;
+  height: 50px;
+  border: 2px solid #59b256;
+  border-radius: 8px;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding: 0 12px;
+  outline: none;
 }
-  
+
 textarea {
-    width: 100%;
-    margin: 10px 0px;
-    font-size: 14px;
-    padding-left: 10px;
+  width: 70%;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding: 12px;
+  border: 2px solid #59b256;
+  border-radius: 8px;
+  outline: none;
 }
   
 button {
-    border: none;
-    border-radius: 0.4rem;
-    padding: 15px;
-    background-color: #59b256;
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  width: 160px;
+  padding: 15px;
+  background-color: #59b256;
+  color: white;
+  cursor: pointer;
 }
-  
+
+
+.c-actions {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 12px;
+  gap: 20px;
+}
+
+.c-success {
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  z-index: 999;
+  background: #59b256;
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  max-width: 320px;
+  width: max-content;
+  animation: toastSlideIn 0,3s ease-in-out;
+}
+
+@keyframes toastSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 @media screen and (max-width: 1028px) {
     .c {
@@ -110,7 +151,7 @@ button {
     }
   
     .c-title {
-      font-size: 30px;
+      font-size: 25px;
     }
   
     .c-info-item {
@@ -130,24 +171,31 @@ button {
     }
     
     input {
-      width: 35%;
+      width: 320px;
       height: 40px;
       margin: 10px;
       margin-left: 0;
     }
-    
-    button {
-      margin-top: 10px;
-      font-weight: 500;
-      font-size: 16px;
-      padding: 10px;
-      width: 50%;
+
+    textarea {
+      width: 320px;
     }
 
-    #cv {
-      margin-top: 10px;
-      margin-left: 0px;
-      padding: 0.45rem .8rem;
+    .c-actions {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 20px;
+      margin-top: 12px;
+    }
+
+    .c-actions button,
+    .c-actions #cv {
+      width: 160px;
+      text-align: center;
+      margin: 0;
+      box-sizing: border-box;
     }
 
     #cv:hover {
@@ -158,57 +206,78 @@ button {
 
 
   @media screen and (max-width: 480px) {
-      .c {
-        margin-top: 50px;
-        padding-bottom: 50px;
-        height: 100%;
-      }
-    
-      .c-wrapper {
-        flex-direction: column;
-        padding: 0px 50px;
-      }
-    
-      .c-title {
-        font-size: 20px;
-      }
-    
-      .c-info-item {
-        margin: 20px 0px;
-        width: 100%;
-      }
-    
-      .c-desc {
-        display: none;
-      }
-    
-      form {
-        width: max-content;
-        margin-top: 0px;
-        display: flex;
-        /* flex-wrap: wrap; */
-      }
-    
-      input {
-        width: 100%;
-        height: 40px;
-        margin: 10px;
-        margin-left: 0;
-      }
-    
-      button {
-        padding: 10px;
-        width: 50%;
-      }
+    .c {
+      margin-top: 50px;
+      padding-bottom: 50px;
+      height: 100%;
+    }
   
-      #cv {
-        margin-top: 10px;
-        margin-left: 0px;
-        padding: 0.45rem .8rem;
-      }
+    .c-wrapper {
+      flex-direction: column;
+      padding: 0px 50px;
+    }
+  
+    .c-title {
+      font-size: 20px;
+    }
+  
+    .c-info-item {
+      margin: 20px 0px;
+      width: 100%;
+    }
+  
+    .c-desc {
+      display: none;
+    }
+  
+    form {
+      width: max-content;
+      margin-top: 0px;
+      display: flex;
+    }
+  
+    input {
+      width: 100%;
+      height: 40px;
+      margin: 10px;
+      margin-left: 0;
+    }
 
-      #cv:hover {
-        background-color: #59b256;
-        color: #fff;
-      }
+    textarea {
+      width: 100%;
+    }
+    
+    .c-actions {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      margin-top: 12px;
+    }
+
+    .c-actions button,
+    .c-actions #cv {
+      width: 160px;
+      text-align: center;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    #cv:active {
+      background-color: #59b256;
+      color: #fff;
+    }
+
+    .c-success {
+      right: 5%;
+      left: 13%;
+      margin-top: auto;
+      bottom: 20px;
+      width: 65%;
+      font-size: 13px;
+      padding: 12px 14px;
+      border-radius: 8px;
+      text-align: center;
+    }
   }
