@@ -21,13 +21,13 @@ export const designs = [
 
     {
       id: 2,
-      img: "https://www.dropbox.com/s/m7vilfqrhxpwjg5/Music%20App%20MockUp%202.jpg?raw=1",
+      img: "https://www.dropbox.com/scl/fi/oosf5fl9vx5mh0txcuox4/Music-App-MockUp-2.jpg?rlkey=qkjufm3yqa7mj74qoohy1m6g1&st=op63sipm&dl=1",
       link: "https://dribbble.com/codexgrey",
     },
 
     {
       id: 3,
-      img: "https://www.dropbox.com/s/7y7m4ytygansedr/Food%20App%20MockUp.jpg?raw=1",
+      img: "https://www.dropbox.com/scl/fi/1v6weokn0e7hvqr97ph8i/Food-App-MockUp.jpg?rlkey=sc49pq7y392u5pahh966i38as&st=gghg0y7g&dl=1",
       link: "https://dribbble.com/codexgrey",
     },
 
@@ -39,7 +39,7 @@ export const designs = [
 
     {
       id: 5,
-      img: "https://www.dropbox.com/s/5f9v5mrey7qpx8z/Music%20Label%20Webpage.png?raw=1",
+      img: "https://www.dropbox.com/scl/fi/mwrjdtz2zw8z9hf854rpr/Music-Label-Webpage.png?rlkey=ia74yn0n7ovt741cyjukkkg9s&st=b8xoskxd&dl=1",
       link: "https://dribbble.com/codexgrey",
     },
 
