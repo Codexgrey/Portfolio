@@ -1,8 +1,11 @@
 // setup functional component, import it to App.jsx for rendering
 import React from 'react'
 import './intro.css';
-import me from "../../img/me1.png"
+import me from "../../img/me3.png"
 import CV from "../../img/CV.pdf"
+import Git from "../../img/github.png";
+import LinkedIn from "../../img/linkedin.png";
+
 
 const Intro = () => {
   return (
@@ -10,7 +13,17 @@ const Intro = () => {
         {/* splitting comp left, right with flexbox */}
         <div className="i-left">
             <div className="i-left-wrapper">
-                <h2 className="i-intro">Hi, i'm</h2>
+                <div className="i-socials">
+                    <a href="http://github.com/Codexgrey" target="_blank" rel="noreferrer">
+                        <img src={Git} alt="GitHub" className="i-social-icon" />
+                    </a>
+
+                    <a href="http://www.linkedin.com/in/collinsovuakporaye" target="_blank" rel="noreferrer">
+                        <img src={LinkedIn} alt="LinkedIn" className="i-social-icon" />
+                    </a>
+                </div>
+
+                <h2 className="i-intro">Hello, i'm</h2>
                 <h1 className="i-name">Collins Ovuakporaye</h1>
 
                 <div className="i-title">

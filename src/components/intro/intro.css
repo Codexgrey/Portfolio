@@ -12,15 +12,41 @@
 
 .i-right {
     flex: 1;
-    position: relative; 
+    position: relative;
+    overflow: hidden;                                                           /* 1. for image and background */
+    clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%); /* 1. move from i-bg */
 }
 
+
+/* wrapper, social icons, */
 .i-left-wrapper {
     padding: 50px;
-    height: 50%; 
+    height: 60%; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 16px;
+}
+
+.i-socials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.i-socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.i-social-icon {
+    width: 32px;
+    height: 32px;
 }
 
 .i-intro {
@@ -40,7 +66,7 @@
 /* skills wrapper */
 .i-title-wrapper {
     height: 100%;
-    animation: move 9s ease-in-out infinite alternate;
+    animation: move 10s ease-in-out infinite alternate;
 }
 
 /* wrapper animation */
@@ -80,11 +106,12 @@
     height: 100%;
     object-fit: contain;
     position: absolute;
+    right: -17.5%;
 }
 
 .i-bg {
     /* using clip-path from bennettfeely.com */
-    clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    /* clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%); */
     background-color: #59b256;
     width: 100%;
     height: 100%;
@@ -119,15 +146,26 @@
         height: 70%;
     }
     
+    /* social icons */
+    .i-socials {
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    .i-social-icon {
+        width: 28px;
+        height: 28px;
+    }
+
     .cv {
         margin: 10px;
     }
-    
+
     .i-desc {
         display: none;
     }
 
-      .i-title-item {
+    .i-title-item {
       font-size: 25px;
       justify-content: center;
       text-align: center;
@@ -145,6 +183,17 @@
       padding: 10px;
       align-items: center;
       height: 100%;
+    }
+
+    /* social icons */
+    .i-socials {
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    .i-social-icon {
+        width: 28px;
+        height: 28px;
     }
 
     .i-intro {

@@ -3,13 +3,6 @@
     position: relative;
 }
   
-.c-bg {
-    width: 20px;
-    height: 100%;
-    background-color: #59b256;
-    position: absolute;
-}
-  
 .c-wrapper {
     padding: 50px;
     display: flex;
@@ -17,6 +10,8 @@
   
 .c-left {
     flex: 1;
+    right: -4%;           /* links shift*/
+    position: relative;   /* links shift*/
 }
   
 .c-right {
@@ -38,6 +33,9 @@
     margin: 15px 0px;
     font-weight: 300;
     width: 70%;
+    text-decoration: none;   /* remove underline */
+    color: inherit; 
+    cursor: pointer;
 }
   
 .c-icon {
@@ -68,6 +66,8 @@
   
 form {
     margin-top: 20px;
+    right: -18%;             /* form shift*/
+    position: relative;      /* form shift*/
 }
   
 input {
@@ -145,6 +145,12 @@ button {
       height: 60vh;
     }
 
+    /* links shift */
+    .c-left {
+      right: 0;
+      position: relative;
+    }
+
     .c-wrapper {
       flex-direction: row;
       padding: 50px 50px;
@@ -159,15 +165,14 @@ button {
       width: 100%;
     }
   
-    .c-desc {
-      display: none;
-    }
-    
     form {
       /* width: max-content; */
       margin-top: 0px;
       display: flex;
       flex-direction: column;
+      right: 0;               /* form shift*/
+      position: relative;     /* form shift*/
+
     }
     
     input {
@@ -213,6 +218,12 @@ button {
       padding-bottom: 50px;
       height: 100%;
     }
+
+    /* links shift */
+    .c-left {
+      right: 0;
+      position: relative;
+    }
   
     .c-wrapper {
       flex-direction: column;
@@ -228,14 +239,12 @@ button {
       width: 100%;
     }
   
-    .c-desc {
-      display: none;
-    }
-  
     form {
       width: max-content;
-      margin-top: 0px;
+      margin-top: 20px;
       display: flex;
+      right: 0;           /* form shift*/
+      position: relative; /* form shift*/
     }
   
     input {

@@ -1,9 +1,7 @@
 // import in App to render
 import React from 'react'
 import "./contact.css";
-import Phone from "../../img/telephone.png";
 import Git from "../../img/github.png";
-import Email from "../../img/email.png";
 import LinkedIn from "../../img/linkedin.png";
 import Address from "../../img/placeholder.png";
 import CV from "../../img/CV.pdf"
@@ -48,31 +46,30 @@ const Contact = () => {
 
   return (
     <div className="c">
-      {/* <div className="c-bg"></div> */}
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">See you around... 🥂</h1>
+          <h1 className="c-title">See you around 🥂</h1>
           <div className="c-info">
-            <div className="c-info-item">
-              <a href="http://github.com/Codexgrey" target="_blank" rel="noreferrer" >
-                <img src={Git} alt="Github Account" className="c-icon" />
-              </a>
+            <a 
+              href="http://github.com/Codexgrey" 
+              target="_blank" 
+              rel="noreferrer" 
+              className="c-info-item"
+            >
+              <img src={Git} alt="Github Account" className="c-icon" />
               Github
-            </div>
-            <div className="c-info-item">
-              <a href="http://www.linkedin.com/in/collinsovuakporaye" target="_blank" rel="noreferrer" >
-                <img src={LinkedIn} alt="LinkedIn Account" className="c-icon" />
-              </a> 
+            </a>
+            
+            <a 
+              href="http://www.linkedin.com/in/collinsovuakporaye" 
+              target="_blank" 
+              rel="noreferrer"
+              className="c-info-item"
+            >
+              <img src={LinkedIn} alt="LinkedIn Account" className="c-icon" />
               LinkedIn
-            </div>
-            <div className="c-info-item">
-               <img src={Phone} alt="Phone Number" className="c-icon" />
-               +90 539 117 53 64
-            </div>
-            <div className="c-info-item">
-               <img src={Email} alt="Mail" className="c-icon" />
-               thecodexgrey@gmail.com
-            </div>
+            </a> 
+
             <div className="c-info-item">
                <img src={Address} alt="Address" className="c-icon" />
                 Nicosia, Cyprus.
@@ -84,7 +81,7 @@ const Contact = () => {
           {/* using ref hook to take inputs */}
           <form ref={formRef} onSubmit={handleSubmit}>
             <p className="c-desc">
-              <b>Leave a message 📥</b>.
+              <b>Shoot me a mail 📥</b>
             </p>
             
             {/* if darkMode, bgc - #333 */}
