@@ -126,6 +126,12 @@
     .i-desc {
         display: none;
     }
+
+      .i-title-item {
+      font-size: 25px;
+      justify-content: center;
+      text-align: center;
+    } 
     
 }
 
@@ -152,11 +158,12 @@
 
     .i-title-item {
       font-size: 20px;
-      justify-self: center;
-    }
+      justify-content: center;
+      text-align: center;
+    } 
 
     .cv {
-        margin: 10px;
+      margin: 10px;
     }
   
     .i-desc, .i-right{
