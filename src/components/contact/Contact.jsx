@@ -31,9 +31,13 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true);
-          // resets text after hitting submit button
-          e.target.reset();
+          setDone(true); // show toast
+          e.target.reset(); // reset form
+
+          // hide toast after 10s
+          setTimeout(() => {
+            setDone(false);
+          }, 7000);
         },
 
         (error) => {
