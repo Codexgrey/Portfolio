@@ -152,6 +152,7 @@
 
     .i-title-item {
       font-size: 20px;
+      justify-self: center;
     }
 
     .cv {
