@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8ca346d0.css",
-    "main.js": "/Portfolio/static/js/main.6209ef43.js",
+    "main.css": "/Portfolio/static/css/main.6e2913b4.css",
+    "main.js": "/Portfolio/static/js/main.bc84b84d.js",
     "static/media/me.png": "/Portfolio/static/media/me.d50663e280c0a1a57f2a.png",
     "static/media/1KAC233.png": "/Portfolio/static/media/1KAC233.aa93047b95970ab40d24.png",
     "static/media/10Music Label Webpage.png": "/Portfolio/static/media/10Music Label Webpage.60f475d4d8f8f958b9c7.png",
@@ -25,11 +25,11 @@
     "static/media/placeholder.png": "/Portfolio/static/media/placeholder.c92e83cfdc1dfe212ca9.png",
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.86eaaabc169dcbd294bf.png",
     "index.html": "/Portfolio/index.html",
-    "main.8ca346d0.css.map": "/Portfolio/static/css/main.8ca346d0.css.map",
-    "main.6209ef43.js.map": "/Portfolio/static/js/main.6209ef43.js.map"
+    "main.6e2913b4.css.map": "/Portfolio/static/css/main.6e2913b4.css.map",
+    "main.bc84b84d.js.map": "/Portfolio/static/js/main.bc84b84d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ca346d0.css",
-    "static/js/main.6209ef43.js"
+    "static/css/main.6e2913b4.css",
+    "static/js/main.bc84b84d.js"
   ]
 }
