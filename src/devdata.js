@@ -21,7 +21,7 @@ import BudgetApp from "./img/5Budget-App.png";
 export const devworks = [
     {
         id: 1,
-        title: "NASA API Search",
+        title: "NASA Media Library API",
         img: NasaSearch,
         link: "https://codexgrey.github.io/NASA-Search/",
         repo: "https://github.com/Codexgrey/NASA-Search",
