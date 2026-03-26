@@ -28,6 +28,7 @@
   
 @media screen and (max-width: 480px) {
     .dl {
+      margin-top: 50px;
       padding: 10px;
     }
   

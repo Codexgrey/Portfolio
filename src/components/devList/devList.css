@@ -28,6 +28,7 @@
   
 @media screen and (max-width: 480px) {
     .dv {
+      margin-top: 50px;
       padding: 10px;
     }
   

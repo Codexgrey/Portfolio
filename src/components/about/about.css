@@ -120,6 +120,7 @@
         flex-direction: column;
         text-align: left;
         margin-top: 50px;
+        padding: 10px;
     }
 
     .a-left {
@@ -134,7 +135,12 @@
         display: none;
     }
 
-    .a-desc {
+    .a-desc, .a-sub, .a-title {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .a-desc, .a-sub {
         font-size: 14px;
     }
 
