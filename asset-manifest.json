@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.44d1b8f8.css",
-    "main.js": "/Portfolio/static/js/main.6373a7e0.js",
+    "main.css": "/Portfolio/static/css/main.394513d3.css",
+    "main.js": "/Portfolio/static/js/main.075bccf9.js",
     "static/media/me.png": "/Portfolio/static/media/me.d50663e280c0a1a57f2a.png",
     "static/media/1KAC233.png": "/Portfolio/static/media/1KAC233.aa93047b95970ab40d24.png",
     "static/media/10Music Label Webpage.png": "/Portfolio/static/media/10Music Label Webpage.60f475d4d8f8f958b9c7.png",
+    "static/media/me3.png": "/Portfolio/static/media/me3.8e9c60ed6a0faf1aaa47.png",
     "static/media/CV.pdf": "/Portfolio/static/media/CV.201840c2cfa0c9b67d43.pdf",
     "static/media/0portfolio.png": "/Portfolio/static/media/0portfolio.59705c783cd4fb9cd746.png",
     "static/media/3The-PIG-Game.png": "/Portfolio/static/media/3The-PIG-Game.a58a2cbd95f9da20e6bc.png",
     "static/media/5Budget-App.png": "/Portfolio/static/media/5Budget-App.6bb0eae11df81f6aee32.png",
     "static/media/7Food App MockUp.jpg": "/Portfolio/static/media/7Food App MockUp.d1e6ca8cfec740cc7033.jpg",
     "static/media/6Descome MockUp 2.jpg": "/Portfolio/static/media/6Descome MockUp 2.c35910ebe3d4c0aa8a32.jpg",
-    "static/media/me3.png": "/Portfolio/static/media/me3.d503da8eb23447ec6577.png",
     "static/media/11Web Practice.png": "/Portfolio/static/media/11Web Practice.42f5d172cb58fcda1289.png",
     "static/media/2NASA-Search.png": "/Portfolio/static/media/2NASA-Search.e1b8789d3f94d0a8fb99.png",
     "static/media/4Social-Proof-Section.png": "/Portfolio/static/media/4Social-Proof-Section.cf6f02ebfa1ff0f281b0.png",
@@ -24,11 +24,11 @@
     "static/media/placeholder.png": "/Portfolio/static/media/placeholder.c92e83cfdc1dfe212ca9.png",
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.86eaaabc169dcbd294bf.png",
     "index.html": "/Portfolio/index.html",
-    "main.44d1b8f8.css.map": "/Portfolio/static/css/main.44d1b8f8.css.map",
-    "main.6373a7e0.js.map": "/Portfolio/static/js/main.6373a7e0.js.map"
+    "main.394513d3.css.map": "/Portfolio/static/css/main.394513d3.css.map",
+    "main.075bccf9.js.map": "/Portfolio/static/js/main.075bccf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d1b8f8.css",
-    "static/js/main.6373a7e0.js"
+    "static/css/main.394513d3.css",
+    "static/js/main.075bccf9.js"
   ]
 }
