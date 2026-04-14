@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6a66d5d8.css",
-    "main.js": "/Portfolio/static/js/main.9c24e1cf.js",
+    "main.js": "/Portfolio/static/js/main.fe197e3f.js",
     "static/media/me.png": "/Portfolio/static/media/me.d50663e280c0a1a57f2a.png",
     "static/media/1KAC233.png": "/Portfolio/static/media/1KAC233.aa93047b95970ab40d24.png",
     "static/media/10Music Label Webpage.png": "/Portfolio/static/media/10Music Label Webpage.60f475d4d8f8f958b9c7.png",
+    "static/media/CV.pdf": "/Portfolio/static/media/CV.817e90fd5203d7d2f9a6.pdf",
     "static/media/me3.png": "/Portfolio/static/media/me3.8e9c60ed6a0faf1aaa47.png",
-    "static/media/CV.pdf": "/Portfolio/static/media/CV.201840c2cfa0c9b67d43.pdf",
     "static/media/0portfolio.png": "/Portfolio/static/media/0portfolio.59705c783cd4fb9cd746.png",
     "static/media/3The-PIG-Game.png": "/Portfolio/static/media/3The-PIG-Game.a58a2cbd95f9da20e6bc.png",
     "static/media/5Budget-App.png": "/Portfolio/static/media/5Budget-App.6bb0eae11df81f6aee32.png",
@@ -25,10 +25,10 @@
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.86eaaabc169dcbd294bf.png",
     "index.html": "/Portfolio/index.html",
     "main.6a66d5d8.css.map": "/Portfolio/static/css/main.6a66d5d8.css.map",
-    "main.9c24e1cf.js.map": "/Portfolio/static/js/main.9c24e1cf.js.map"
+    "main.fe197e3f.js.map": "/Portfolio/static/js/main.fe197e3f.js.map"
   },
   "entrypoints": [
     "static/css/main.6a66d5d8.css",
-    "static/js/main.9c24e1cf.js"
+    "static/js/main.fe197e3f.js"
   ]
 }
