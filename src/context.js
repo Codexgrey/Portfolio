@@ -4,7 +4,7 @@ import { createContext, useReducer } from "react";
 // using react context API to initialize our ThemeContext
 export const ThemeContext = createContext();
 
-const INITIAL_STATE = { darkMode: true };
+const INITIAL_STATE = { darkMode: false };
 
 // reducer to switch states/modes
 const themeReducer = (state, action) => {
