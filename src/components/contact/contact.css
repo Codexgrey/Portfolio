@@ -113,12 +113,12 @@ textarea {
 
 
 .c-actions {
-  width: 70%;
+  /* matches input/textarea's true rendered width: those are content-box,
+     so their 70% is padded out by 2*2px border + 2*12px padding on top */
+  width: calc(70% + 28px);
   display: flex;
   align-items: center;
   margin-top: 12px;
-  margin-left: auto;
-  margin-right: auto;
   gap: 20px;
 }
 
