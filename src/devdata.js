@@ -16,7 +16,7 @@ import KAC233 from "./img/1KAC233.png";
 import ThePIGGame from "./img/3The-PIG-Game.png";
 import RAGSystem from "./img/12RAG-System.png";
 import AISlideGenerator from "./img/Picture1.png";
-import ThreadsForAgents from "./img/14Threads-for-Agents.png";
+import ThreadsForAgents from "./img/threadnought.png";
 
 
 // The flagship, in-depth pieces of work; rendered larger with a Case Study modal
