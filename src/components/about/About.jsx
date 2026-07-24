@@ -23,8 +23,10 @@ const About = () => {
 
             <div className="a-desc">
                 <p>
-                    I'm a full-stack engineer with 4+ years shipping production
-                    apps in React, Next.js, TypeScript, and Node.js. <br />
+                    I'm a full-stack engineer with 4+ years experience shipping production
+                    apps in React, Next.js, TypeScript, Node.js and Python primarily. 
+                    <br />
+                    <br />
                     Lately, that's meant building AI-native systems; a
                     multi-retrieval RAG platform (FAISS/BM25/hybrid search,
                     citation-grounded LLM responses) and an AI slide-deck
@@ -45,8 +47,7 @@ const About = () => {
                     <div className="a-asp-texts">
                         <h4 className="a-asp-title">Aspiration</h4>
                         <p className="a-asp-desc">
-                            To build products that genuinely  <br />
-                            make a difference in the lives of users.
+                            To build ideas that move the world forward.
                         </p>
                     </div>
                 </div>
