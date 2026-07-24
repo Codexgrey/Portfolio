@@ -70,6 +70,9 @@ const CaseStudyModal = ({ project, onClose }) => {
 
                     <div className="cs-actions">
                         <a href={repo} target="_blank" rel="noreferrer" className="cs-btn cs-btn-primary">View on GitHub</a>
+                        {caseStudy.live && (
+                            <a href={caseStudy.live} target="_blank" rel="noreferrer" className="cs-btn cs-btn-primary">View Live</a>
+                        )}
                     </div>
                 </div>
             </div>

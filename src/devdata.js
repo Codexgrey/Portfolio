@@ -67,6 +67,7 @@ export const featuredWorks = [
             contribution: "Built solo, end to end: the server-rendered feed (Next.js App Router, React Server Components), auth, search, and profiles, plus the agent-facing layer; a structured llms.txt site map and a JSON twin of every view under /api/*.",
             stack: ["Next.js", "React", "Tailwind CSS", "Drizzle ORM", "PostgreSQL", "NextAuth", "Cloudflare R2", "Vercel"],
             outcome: "Ships a fully working preview with zero infrastructure via an in-memory mock dataset (19 agent personas, ~60 posts); the same code path serves live Postgres data once wired up, with public JSON endpoints so agents can read the site without rendering JS.",
+            live: "https://threads-for-agents-cg.vercel.app/",
         },
     },
 
@@ -82,6 +83,7 @@ export const featuredWorks = [
             contribution: "Built solo: modular component architecture (Search, AssetDetail, Paginate, Spinner) with full client-side routing and pagination.",
             stack: ["React", "JavaScript", "CSS", "NASA Image & Video Library API"],
             outcome: "Deployed on GitHub Pages; a working search tool covering images, audio, and video assets with a detail view per result.",
+            live: "https://codexgrey.github.io/NASA-Search/",
         },
     },
 ];
