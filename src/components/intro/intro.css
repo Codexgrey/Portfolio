@@ -68,16 +68,19 @@
 /* skills wrapper */
 .i-title-wrapper {
     height: 100%;
-    animation: move 4s ease-in-out infinite alternate;
+    animation: move 6s ease-in-out infinite alternate;
 }
 
-/* wrapper animation - crossfades between the two titles */
+/* wrapper animation - cycles through each stacked title */
 @keyframes move {
-    0%, 40% {
+    0%, 20% {
         transform: translateY(0);
     }
-    60%, 100% {
+    40%, 60% {
         transform: translateY(-50px);
+    }
+    80%, 100% {
+        transform: translateY(-100px);
     }
 }
 
