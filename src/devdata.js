@@ -13,9 +13,7 @@
 import NasaSearch from "./img/2NASA-Search.png";
 import Portfolio from "./img/0portfolio.png";
 import KAC233 from "./img/1KAC233.png";
-import SocialProofSection from "./img/4Social-Proof-Section.png";
 import ThePIGGame from "./img/3The-PIG-Game.png";
-import BudgetApp from "./img/5Budget-App.png";
 import RAGSystem from "./img/12RAG-System.png";
 import AISlideGenerator from "./img/13AI-Slide-Generator.png";
 
@@ -67,29 +65,11 @@ export const devworks = [
     },
 
     {
-        id: 4,
-        title: "Social Proof Section",
-        img: SocialProofSection,
-        link: "https://codexgrey.github.io/Social-Proof-Section/",
-        repo: "https://github.com/Codexgrey/Social-Proof-Section",
-        description: "Frontend Mentor coding challenge — a responsive social proof/testimonials section.",
-    },
-
-    {
         id: 5,
         title: "Javascript - PIG GAME APP",
         img: ThePIGGame,
         link: "https://codexgrey.github.io/The-PIG-Game/",
         repo: "https://github.com/Codexgrey/The-PIG-Game",
         description: "Two-player dice game built with vanilla JavaScript, DOM manipulation, and event handling.",
-    },
-
-    {
-        id: 6,
-        title: "BUDGET APP",
-        img: BudgetApp,
-        link: "https://codexgrey.github.io/Budget-App/",
-        repo: "https://github.com/Codexgrey/Budget-App",
-        description: "Income/expense budget tracker built with vanilla JavaScript.",
     },
 ];
