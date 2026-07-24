@@ -124,7 +124,14 @@
     }
 
     .cs-modal {
+        height: 92vh;
+        height: 92dvh;
         max-height: 92vh;
+        max-height: 92dvh;
         border-radius: 16px 16px 0 0;
+    }
+
+    .cs-close {
+        top: 20%;
     }
 }
