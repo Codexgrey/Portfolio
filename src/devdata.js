@@ -45,6 +45,7 @@ export const devworks = [
         img: NasaSearch,
         link: "https://codexgrey.github.io/NASA-Search/",
         repo: "https://github.com/Codexgrey/NASA-Search",
+        description: "React SPA searching NASA's image & video library, with pagination and asset-type filters.",
     },
 
     {
@@ -53,6 +54,7 @@ export const devworks = [
         img: Portfolio,
         link: "https://Codexgrey.github.io/Portfolio",
         repo: "https://github.com/Codexgrey/Portfolio",
+        description: "This site — a React portfolio with light/dark mode and project galleries.",
     },
 
     {
@@ -61,6 +63,7 @@ export const devworks = [
         img: KAC233,
         link: "https://codexgrey.github.io/KAC233/",
         repo: "https://github.com/Codexgrey/KAC233",
+        description: "Workshop/event website built to practice HTML, CSS, and JavaScript.",
     },
 
     {
@@ -69,6 +72,7 @@ export const devworks = [
         img: SocialProofSection,
         link: "https://codexgrey.github.io/Social-Proof-Section/",
         repo: "https://github.com/Codexgrey/Social-Proof-Section",
+        description: "Frontend Mentor coding challenge — a responsive social proof/testimonials section.",
     },
 
     {
@@ -77,6 +81,7 @@ export const devworks = [
         img: ThePIGGame,
         link: "https://codexgrey.github.io/The-PIG-Game/",
         repo: "https://github.com/Codexgrey/The-PIG-Game",
+        description: "Two-player dice game built with vanilla JavaScript, DOM manipulation, and event handling.",
     },
 
     {
@@ -85,5 +90,6 @@ export const devworks = [
         img: BudgetApp,
         link: "https://codexgrey.github.io/Budget-App/",
         repo: "https://github.com/Codexgrey/Budget-App",
+        description: "Income/expense budget tracker built with vanilla JavaScript.",
     },
 ];
