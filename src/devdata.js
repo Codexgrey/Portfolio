@@ -10,12 +10,12 @@
     - NOW* just -> remove "&st=76ttj6qk" and set dl=1
  */
 
-import NasaSearch from "./img/2NASA-Search.png";
+import NasaSearch from "./img/NASA.png";
 import Portfolio from "./img/0portfolio.png";
 import KAC233 from "./img/1KAC233.png";
 import ThePIGGame from "./img/3The-PIG-Game.png";
 import RAGSystem from "./img/12RAG-System.png";
-import AISlideGenerator from "./img/13AI-Slide-Generator.png";
+import AISlideGenerator from "./img/Picture1.png";
 import ThreadsForAgents from "./img/14Threads-for-Agents.png";
 
 
