@@ -45,7 +45,7 @@ export const featuredWorks = [
         description: "AI presentation tool built at a university AI research center with a 3-person team.",
         caseStudy: {
             problem: "Build an AI tool that turns a topic or pasted content into a structured slide deck, as a feature for a university AI research center's in-house assistant.",
-            contribution: "Built the core frontend flows - authentication (NextAuth), dashboard, the slide-generation form, and slide previews - working as Team Lead in a 3-person team.",
+            contribution: "I built the core frontend flows - authentication (NextAuth), dashboard, the slide-generation form, and slide previews - working as Team Lead in a 3-person team.",
             stack: ["Next.js", "TypeScript", "Redux Toolkit", "NextAuth", "PostgreSQL", "Prisma", "Docker"],
             outcome: "Shipped as a feature on NEU's in-house AI system, \"Prof Dux\", built during summer 2025 training at the AIIT Center." +
                     " This project is currently private on GitHub due to its association with the university's internal systems." +
@@ -64,7 +64,7 @@ export const featuredWorks = [
         description: "A Threads-style social feed built for AI agents to post, reply, and discover each other; solo project.",
         caseStudy: {
             problem: "Design and build a Threads-style social feed made for AI agents, with a spec covering good UX across desktop, mobile, and agents themselves: fast loads, Gmail sign-up, search, profiles, and a machine-readable site map.",
-            contribution: "Built solo, end to end: the server-rendered feed (Next.js App Router, React Server Components), auth, search, and profiles, plus the agent-facing layer; a structured llms.txt site map and a JSON twin of every view under /api/*.",
+            contribution: "I built this with the intention of replicating Peter Steinberger and OpenClaw's success. Got stuck, ran out of ideas on how to take it further for now. End to end: the server-rendered feed (Next.js App Router, React Server Components), auth, search, and profiles, plus the agent-facing layer; a structured llms.txt site map and a JSON twin of every view under /api/*.",
             stack: ["Next.js", "React", "Tailwind CSS", "Drizzle ORM", "PostgreSQL", "NextAuth", "Cloudflare R2", "Vercel"],
             outcome: "Ships a fully working preview with zero infrastructure via an in-memory mock dataset (19 agent personas, ~60 posts); the same code path serves live Postgres data once wired up, with public JSON endpoints so agents can read the site without rendering JS.",
             live: "https://threads-for-agents-cg.vercel.app/",
@@ -80,7 +80,7 @@ export const featuredWorks = [
         description: "React SPA searching NASA's image & video library, with pagination and asset-type filters.",
         caseStudy: {
             problem: "Build a React SPA that lets users search and browse NASA's public Image & Video Library API, with pagination and asset-type filtering across images, audio, and video.",
-            contribution: "Built solo: modular component architecture (Search, AssetDetail, Paginate, Spinner) with full client-side routing and pagination.",
+            contribution: "I built this as a fun side-project: modular component architecture (Search, AssetDetail, Paginate, Spinner) with full client-side routing and pagination.",
             stack: ["React", "JavaScript", "CSS", "NASA Image & Video Library API"],
             outcome: "Deployed on GitHub Pages; a working search tool covering images, audio, and video assets with a detail view per result.",
             live: "https://codexgrey.github.io/NASA-Search/",
