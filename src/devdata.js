@@ -16,9 +16,27 @@ import KAC233 from "./img/1KAC233.png";
 import SocialProofSection from "./img/4Social-Proof-Section.png";
 import ThePIGGame from "./img/3The-PIG-Game.png";
 import BudgetApp from "./img/5Budget-App.png";
+import RAGSystem from "./img/12RAG-System.png";
+import AISlideGenerator from "./img/13AI-Slide-Generator.png";
 
 
 export const devworks = [
+    {
+        id: 7,
+        title: "Multi-Retrieval RAG System",
+        img: RAGSystem,
+        link: "https://github.com/Codexgrey/capstone_RAG",
+        repo: "https://github.com/Codexgrey/capstone_RAG",
+    },
+
+    {
+        id: 8,
+        title: "AI Slide Deck Generator",
+        img: AISlideGenerator,
+        link: "https://github.com/Codexgrey/ai-slide-generator",
+        repo: "https://github.com/Codexgrey/ai-slide-generator",
+    },
+
     {
         id: 1,
         title: "NASA Media Library API",
