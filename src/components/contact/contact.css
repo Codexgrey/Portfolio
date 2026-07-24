@@ -6,12 +6,12 @@
 .c-wrapper {
     padding: 50px;
     display: flex;
+    gap: 40px;
+    box-sizing: border-box;
 }
-  
+
 .c-left {
     flex: 1;
-    right: -4%;           /* links shift*/
-    position: relative;   /* links shift*/
 }
   
 .c-right {
@@ -66,8 +66,8 @@
   
 form {
     margin-top: 20px;
-    right: -18%;             /* form shift*/
-    position: relative;      /* form shift*/
+    width: 100%;
+    max-width: 420px;
 }
   
 input {
