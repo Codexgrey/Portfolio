@@ -1,9 +1,13 @@
 // import in productList, for rendering
-import React from 'react'
+import React, { useContext } from 'react'
 import "./develop.css";
+import { ThemeContext } from '../../context';
 
 // passing in props from designdata
 const Develop = ({ title, img, link, repo, description, featured, onViewCaseStudy }) => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className={`dev-item${featured ? " dev-item-featured" : ""}`}>
       {/* cards for each project */}
@@ -12,7 +16,7 @@ const Develop = ({ title, img, link, repo, description, featured, onViewCaseStud
             <img src={img} alt={title} className="d-img" />
           </div>
 
-          <div className="d-body">
+          <div className="d-body" style={{ backgroundColor: darkMode ? undefined : "#eee" }}>
             <h3 className="d-title">{title}</h3>
             {description && <p className="d-desc">{description}</p>}
 
