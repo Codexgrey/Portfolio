@@ -25,7 +25,7 @@ const Nav = () => {
           <path d="M3 10.5 12 3l9 7.5" />
           <path d="M5 9.5V21h14V9.5" />
         </svg>
-        Collins<span className="nav-brand-dot">.</span>
+        Codexgrey<span className="nav-brand-dot">.</span>
       </a>
 
       <div className="nav-links">
