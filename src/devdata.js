@@ -27,6 +27,7 @@ export const devworks = [
         img: RAGSystem,
         link: "https://github.com/Codexgrey/capstone_RAG",
         repo: "https://github.com/Codexgrey/capstone_RAG",
+        description: "AI-native RAG platform comparing Vector/Keyword/Hybrid retrieval, built with a 5-person team.",
     },
 
     {
@@ -35,6 +36,7 @@ export const devworks = [
         img: AISlideGenerator,
         link: "https://github.com/Codexgrey/ai-slide-generator",
         repo: "https://github.com/Codexgrey/ai-slide-generator",
+        description: "AI presentation tool built at a university AI research center with a 3-person team.",
     },
 
     {

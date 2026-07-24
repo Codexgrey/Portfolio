@@ -16,7 +16,7 @@ const DevList = () => {
         <div className="dv-list">
           {devworks.map(work => (
             // mapping through each design and rendering its props
-            <Develop key={work.id} title={work.title} img={work.img} link={work.link} repo={work.repo}/>
+            <Develop key={work.id} title={work.title} img={work.img} link={work.link} repo={work.repo} description={work.description}/>
           ))}
         </div>
     </div>
