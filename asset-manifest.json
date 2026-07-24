@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6a66d5d8.css",
-    "main.js": "/Portfolio/static/js/main.30c23951.js",
+    "main.css": "/Portfolio/static/css/main.a3a6bb3b.css",
+    "main.js": "/Portfolio/static/js/main.3b571bde.js",
+    "static/media/threadnought.png": "/Portfolio/static/media/threadnought.3ee36a4ea944ba1fd93b.png",
     "static/media/CV.pdf": "/Portfolio/static/media/CV.5a00c3668485f0c0a400.pdf",
     "static/media/me.png": "/Portfolio/static/media/me.d50663e280c0a1a57f2a.png",
     "static/media/1KAC233.png": "/Portfolio/static/media/1KAC233.aa93047b95970ab40d24.png",
     "static/media/10Music Label Webpage.png": "/Portfolio/static/media/10Music Label Webpage.60f475d4d8f8f958b9c7.png",
+    "static/media/NASA.png": "/Portfolio/static/media/NASA.4d681339b7955d212cdb.png",
+    "static/media/Picture1.png": "/Portfolio/static/media/Picture1.2ae6744b6ab6e859b894.png",
     "static/media/me3.png": "/Portfolio/static/media/me3.8e9c60ed6a0faf1aaa47.png",
     "static/media/0portfolio.png": "/Portfolio/static/media/0portfolio.59705c783cd4fb9cd746.png",
     "static/media/3The-PIG-Game.png": "/Portfolio/static/media/3The-PIG-Game.a58a2cbd95f9da20e6bc.png",
-    "static/media/5Budget-App.png": "/Portfolio/static/media/5Budget-App.6bb0eae11df81f6aee32.png",
     "static/media/7Food App MockUp.jpg": "/Portfolio/static/media/7Food App MockUp.d1e6ca8cfec740cc7033.jpg",
     "static/media/6Descome MockUp 2.jpg": "/Portfolio/static/media/6Descome MockUp 2.c35910ebe3d4c0aa8a32.jpg",
     "static/media/11Web Practice.png": "/Portfolio/static/media/11Web Practice.42f5d172cb58fcda1289.png",
-    "static/media/2NASA-Search.png": "/Portfolio/static/media/2NASA-Search.e1b8789d3f94d0a8fb99.png",
-    "static/media/4Social-Proof-Section.png": "/Portfolio/static/media/4Social-Proof-Section.cf6f02ebfa1ff0f281b0.png",
     "static/media/9Music App MockUp.jpg": "/Portfolio/static/media/9Music App MockUp.5481cedbf630f7ea0d29.jpg",
     "static/media/8Mobile design.png": "/Portfolio/static/media/8Mobile design.7f3d722b8e556422f04f.png",
+    "static/media/12RAG-System.png": "/Portfolio/static/media/12RAG-System.720f3beaa464610b5eb5.png",
     "static/media/target.png": "/Portfolio/static/media/target.98a75761acf222d5a84d.png",
     "static/media/sun.png": "/Portfolio/static/media/sun.d07c9ecea0ad9094855a.png",
     "static/media/github.png": "/Portfolio/static/media/github.a855c3975c028d8069f5.png",
@@ -24,11 +25,11 @@
     "static/media/placeholder.png": "/Portfolio/static/media/placeholder.c92e83cfdc1dfe212ca9.png",
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.86eaaabc169dcbd294bf.png",
     "index.html": "/Portfolio/index.html",
-    "main.6a66d5d8.css.map": "/Portfolio/static/css/main.6a66d5d8.css.map",
-    "main.30c23951.js.map": "/Portfolio/static/js/main.30c23951.js.map"
+    "main.a3a6bb3b.css.map": "/Portfolio/static/css/main.a3a6bb3b.css.map",
+    "main.3b571bde.js.map": "/Portfolio/static/js/main.3b571bde.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a66d5d8.css",
-    "static/js/main.30c23951.js"
+    "static/css/main.a3a6bb3b.css",
+    "static/js/main.3b571bde.js"
   ]
 }
