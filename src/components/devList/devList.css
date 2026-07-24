@@ -35,16 +35,6 @@
     justify-content: space-between;
 }
 
-.dv-list-practice .dev-item {
-    width: 46%;
-}
-
-@media screen and (max-width: 1028px) {
-    .dv-list-practice .dev-item {
-        width: 46%;
-    }
-}
-
 @media screen and (max-width: 480px) {
     .dv {
       margin-top: 50px;

@@ -6,8 +6,10 @@ const CaseStudyModal = ({ project, onClose }) => {
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
 
-    // close on Escape, lock background scroll while open
+    // close on Escape, lock background scroll while open (only when a project is actually shown)
     useEffect(() => {
+        if (!project) return;
+
         const onKeyDown = (e) => {
             if (e.key === "Escape") onClose();
         };
@@ -18,7 +20,7 @@ const CaseStudyModal = ({ project, onClose }) => {
             document.removeEventListener("keydown", onKeyDown);
             document.body.style.overflow = "";
         };
-    }, [onClose]);
+    }, [project, onClose]);
 
     if (!project) return null;
     const { title, img, repo, caseStudy } = project;

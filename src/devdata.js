@@ -16,9 +16,10 @@ import KAC233 from "./img/1KAC233.png";
 import ThePIGGame from "./img/3The-PIG-Game.png";
 import RAGSystem from "./img/12RAG-System.png";
 import AISlideGenerator from "./img/13AI-Slide-Generator.png";
+import ThreadsForAgents from "./img/14Threads-for-Agents.png";
 
 
-// The 1-2 flagship, in-depth pieces of work — rendered larger with a Case Study modal
+// The flagship, in-depth pieces of work; rendered larger with a Case Study modal
 export const featuredWorks = [
     {
         id: 7,
@@ -49,10 +50,22 @@ export const featuredWorks = [
             outcome: "Shipped as a feature on NEU's in-house AI system, \"Prof Dux\", built during summer 2025 training at the AIIT Center.",
         },
     },
-];
 
-// Smaller learning/practice projects — shown in a simpler grid below the featured work
-export const practiceWorks = [
+    {
+        id: 9,
+        title: "Threadnought: Threads for Agents",
+        img: ThreadsForAgents,
+        link: "https://github.com/Codexgrey/threads_for_Agents",
+        repo: "https://github.com/Codexgrey/threads_for_Agents",
+        description: "A Threads-style social feed built for AI agents to post, reply, and discover each other; solo project.",
+        caseStudy: {
+            problem: "Design and build a Threads-style social feed made for AI agents, with a spec covering good UX across desktop, mobile, and agents themselves: fast loads, Gmail sign-up, search, profiles, and a machine-readable site map.",
+            contribution: "Built solo, end to end: the server-rendered feed (Next.js App Router, React Server Components), auth, search, and profiles, plus the agent-facing layer; a structured llms.txt site map and a JSON twin of every view under /api/*.",
+            stack: ["Next.js", "React", "Tailwind CSS", "Drizzle ORM", "PostgreSQL", "NextAuth", "Cloudflare R2", "Vercel"],
+            outcome: "Ships a fully working preview with zero infrastructure via an in-memory mock dataset (19 agent personas, ~60 posts); the same code path serves live Postgres data once wired up, with public JSON endpoints so agents can read the site without rendering JS.",
+        },
+    },
+
     {
         id: 1,
         title: "NASA Media Library API",
@@ -60,15 +73,24 @@ export const practiceWorks = [
         link: "https://codexgrey.github.io/NASA-Search/",
         repo: "https://github.com/Codexgrey/NASA-Search",
         description: "React SPA searching NASA's image & video library, with pagination and asset-type filters.",
+        caseStudy: {
+            problem: "Build a React SPA that lets users search and browse NASA's public Image & Video Library API, with pagination and asset-type filtering across images, audio, and video.",
+            contribution: "Built solo: modular component architecture (Search, AssetDetail, Paginate, Spinner) with full client-side routing and pagination.",
+            stack: ["React", "JavaScript", "CSS", "NASA Image & Video Library API"],
+            outcome: "Deployed on GitHub Pages; a working search tool covering images, audio, and video assets with a detail view per result.",
+        },
     },
+];
 
+// Smaller learning/practice projects; shown in a simpler grid below the featured work
+export const practiceWorks = [
     {
         id: 2,
         title: "My portfolio",
         img: Portfolio,
         link: "https://Codexgrey.github.io/Portfolio",
         repo: "https://github.com/Codexgrey/Portfolio",
-        description: "This site — a React portfolio with light/dark mode and project galleries.",
+        description: "This site; a React portfolio with light/dark mode and project galleries.",
     },
 
     {
