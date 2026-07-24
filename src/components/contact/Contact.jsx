@@ -85,10 +85,10 @@ const Contact = () => {
             </p>
             
             {/* if darkMode, bgc - #333 */}
-            <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Name" name="user_name" />
+            <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Name" name="user_name" required />
             <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#fff"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#fff"}} rows="5" placeholder="Message" name="message" />
+            <input style={{backgroundColor: darkMode && "#fff"}} type="email" placeholder="Email" name="user_email" required />
+            <textarea style={{backgroundColor: darkMode && "#fff"}} rows="5" placeholder="Message" name="message" required />
             
             <div className="c-actions">
               <button type="submit">Submit</button>

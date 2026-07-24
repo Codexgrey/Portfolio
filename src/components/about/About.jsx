@@ -11,37 +11,42 @@ const About = () => {
         <div className="a-left">
             <div className="a-card bg"></div>
             <div className="a-card">
-                <img src={greenme} alt="" className="a-img" />
+                <img src={greenme} alt="Collins Ovuakporaye" className="a-img" />
             </div>
         </div>
 
         <div className="a-right">
             <h1 className="a-title">About Me</h1>
             <p className="a-sub">
-                I'm a dabbler of sorts, <br /> a generalist if you like.
+                Full-stack engineer, <br /> building AI-native products among others.
             </p>
 
             <div className="a-desc">
                 <p>
-                    I've been a - designer, developer, engineer etc. <br />
-                    The common theme here is discovery! <br />
-                    To upskill, To grow, be really good at what i do!
+                    I'm a full-stack engineer with 4+ years shipping production
+                    apps in React, Next.js, TypeScript, and Node.js. <br />
+                    Lately, that's meant building AI-native systems; a
+                    multi-retrieval RAG platform (FAISS/BM25/hybrid search,
+                    citation-grounded LLM responses) and an AI slide-deck
+                    generator built at a university AI research center.
                     <br />
                     <br />
-                    What it boils down to, is a keen interest in exploring
-                    the limits of my <b>Potential</b>.
+                    I care about the whole product, not just the ticket:
+                    scoping the problem, weighing tradeoffs with the team,
+                    and shipping something reliable end to end; from
+                    Figma to Docker to production.
                     <br />
                     <br />
                     Get in touch.<br />
-                    Let's build great memories.
+                    Let's build something great.
                 </p>
                 <div className="a-asp">
                     <img src={Goal} alt="" className="a-asp-img" />
                     <div className="a-asp-texts">
                         <h4 className="a-asp-title">Aspiration</h4>
                         <p className="a-asp-desc">
-                            To find my niche in this vast, continuously <br /> 
-                            changing landscape of technology.
+                            To build products that genuinely  <br />
+                            make a difference in the lives of users.
                         </p>
                     </div>
                 </div>

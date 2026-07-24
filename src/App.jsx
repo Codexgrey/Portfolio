@@ -3,7 +3,7 @@ import Intro from "./components/intro/Intro.jsx";
 import DesignList from "./components/designList/DesignList.jsx";
 import DevList from "./components/devList/DevList.jsx";
 import Contact from "./components/contact/Contact.jsx";
-import Toggle from "./components/toggle/Toggle.jsx";
+import Nav from "./components/nav/Nav.jsx";
 
 
 // using context API
@@ -25,12 +25,12 @@ const App = () => {
           color: darkMode && "white",
         }}
       >
-        <Toggle />
-        <Intro />
-        <About />
-        <DevList />
-        <DesignList />
-        <Contact />
+        <Nav />
+        <div id="home"><Intro /></div>
+        <div id="about"><About /></div>
+        <div id="work"><DevList /></div>
+        <div id="design"><DesignList /></div>
+        <div id="contact"><Contact /></div>
       </div>
     )
 };

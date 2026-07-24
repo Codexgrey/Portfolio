@@ -6,12 +6,12 @@
 .c-wrapper {
     padding: 50px;
     display: flex;
+    gap: 40px;
+    box-sizing: border-box;
 }
-  
+
 .c-left {
     flex: 1;
-    right: -4%;           /* links shift*/
-    position: relative;   /* links shift*/
 }
   
 .c-right {
@@ -50,8 +50,13 @@
 
 #cv {
   display: inline-block;
+  box-sizing: border-box;
+  flex: 1;
+  font-size: 16px;
+  white-space: nowrap;
   color: #59b256;
-  padding: 0.75rem 1.2rem;
+  padding: 15px;
+  text-align: center;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid #59b256;
@@ -66,8 +71,8 @@
   
 form {
     margin-top: 20px;
-    right: -18%;             /* form shift*/
-    position: relative;      /* form shift*/
+    width: 100%;
+    max-width: 480px;
 }
   
 input {
@@ -91,10 +96,15 @@ textarea {
   outline: none;
 }
   
-button {
-  border: none;
+.c-actions button {
+  box-sizing: border-box;
+  border: 1px solid transparent;
   border-radius: 0.4rem;
-  width: 160px;
+  flex: 1;
+  font-size: 16px;
+  font-family: inherit;
+  text-align: center;
+  white-space: nowrap;
   padding: 15px;
   background-color: #59b256;
   color: white;
@@ -105,7 +115,6 @@ button {
 .c-actions {
   width: 70%;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   margin-top: 12px;
   gap: 20px;
@@ -197,9 +206,11 @@ button {
 
     .c-actions button,
     .c-actions #cv {
+      flex: none;
       font-size: 16px;
       padding: 12px 0;
       width: 160px;
+      white-space: nowrap;
       text-align: center;
       margin: 0;
       box-sizing: border-box;
@@ -269,8 +280,10 @@ button {
 
     .c-actions button,
     .c-actions #cv {
+      flex: none;
       font-size: 14px;
       width: 160px;
+      white-space: nowrap;
       text-align: center;
       margin: 0;
       box-sizing: border-box;

@@ -28,18 +28,20 @@ const Intro = () => {
 
                 <div className="i-title">
                     <div className="i-title-wrapper">
-                        <div className="i-title-item">Computer Engineer</div>
-                        <div className="i-title-item">Full Stack Engineer</div>
-                        <div className="i-title-item">Whatever gets the job done!</div>
-                        <div className="i-title-item">Just a chill guy 😎</div>
+                        <div className="i-title-item">Full-Stack Engineer</div>
+                        <div className="i-title-item">Software Engineer</div>
+                        <div className="i-title-item">AI Product Builder</div>
                     </div>
                 </div>
 
                 <p className="i-desc">
-                    I build cool stuff on the internet,<br />
-                    using software tools and applications for delivery.
+                    Building AI-native products end to end,<br />
+                    from React interfaces to Python/Node backends.
                 </p>
-                <a className="cv" href={CV} download>Download CV</a>
+                <div className="i-actions">
+                    <a className="cv" href={CV} download>Download CV</a>
+                    <a className="cv cv-outline" href="#work">View Work</a>
+                </div>
             </div>
 
             {/* SVG to indicate scroll */}
@@ -105,7 +107,9 @@ const Intro = () => {
          {/* Above the fold photo */}
         <div className="i-right">
             <div className="i-bg"></div>
-            <img src={me} alt="Just a chill guy..." className="i-img" />
+            <div className="i-photo-card">
+                <img src={me} alt="Illustrated portrait of Collins Ovuakporaye" className="i-img" />
+            </div>
         </div>
     </div>
   )

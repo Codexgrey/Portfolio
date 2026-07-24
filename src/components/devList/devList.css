@@ -18,20 +18,29 @@
 .dv-desc {
     margin: 20px 0px;
 }
-  
+
+.dv-subtitle {
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 30px 0 10px;
+}
+
 .dv-list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-  
+
 @media screen and (max-width: 480px) {
     .dv {
       margin-top: 50px;
       padding: 10px;
     }
-  
+
     .dv-texts {
       width: 100%;
     }
@@ -40,8 +49,17 @@
       font-size: 2rem;
       font-weight: bold;
     }
-  
+
     .dv-desc {
       font-size: 0.9rem;
+    }
+
+    .dv-subtitle {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .dv-list-practice .dev-item {
+        width: 100%;
     }
 }

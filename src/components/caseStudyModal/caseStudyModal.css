@@ -1,0 +1,120 @@
+.cs-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 24px;
+}
+
+.cs-modal {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    max-height: 85vh;
+    overflow-y: auto;
+    border-radius: 16px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+}
+
+.cs-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.cs-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    border-radius: 16px 16px 0 0;
+}
+
+.cs-body {
+    padding: 24px 28px 28px;
+    text-align: left;
+}
+
+.cs-title {
+    margin: 0 0 18px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.cs-section {
+    margin-bottom: 18px;
+}
+
+.cs-section h4 {
+    margin: 0 0 6px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #59b256;
+    font-weight: 600;
+}
+
+.cs-section p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    opacity: 0.85;
+}
+
+.cs-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.cs-tag {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid #59b256;
+    color: #59b256;
+}
+
+.cs-actions {
+    margin-top: 22px;
+}
+
+.cs-btn-primary {
+    display: inline-block;
+    padding: 0.65rem 1.3rem;
+    border-radius: 0.4rem;
+    background-color: #59b256;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 480px) {
+    .cs-overlay {
+        padding: 0;
+        align-items: flex-end;
+    }
+
+    .cs-modal {
+        max-height: 92vh;
+        border-radius: 16px 16px 0 0;
+    }
+}
