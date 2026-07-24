@@ -15,9 +15,16 @@
     width: 100%;
     max-width: 640px;
     max-height: 85vh;
-    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     border-radius: 16px;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+}
+
+.cs-scroll {
+    overflow-y: auto;
+    min-height: 0;
 }
 
 .cs-close {

@@ -39,40 +39,42 @@ const CaseStudyModal = ({ project, onClose }) => {
                     &times;
                 </button>
 
-                <img src={img} alt={title} className="cs-img" />
+                <div className="cs-scroll">
+                    <img src={img} alt={title} className="cs-img" />
 
-                <div className="cs-body">
-                    <h2 className="cs-title">{title}</h2>
+                    <div className="cs-body">
+                        <h2 className="cs-title">{title}</h2>
 
-                    <div className="cs-section">
-                        <h4>Problem</h4>
-                        <p>{caseStudy.problem}</p>
-                    </div>
-
-                    <div className="cs-section">
-                        <h4>My Contribution</h4>
-                        <p>{caseStudy.contribution}</p>
-                    </div>
-
-                    <div className="cs-section">
-                        <h4>Tech Stack</h4>
-                        <div className="cs-tags">
-                            {caseStudy.stack.map((tech) => (
-                                <span className="cs-tag" key={tech}>{tech}</span>
-                            ))}
+                        <div className="cs-section">
+                            <h4>Problem</h4>
+                            <p>{caseStudy.problem}</p>
                         </div>
-                    </div>
 
-                    <div className="cs-section">
-                        <h4>Outcome</h4>
-                        <p>{caseStudy.outcome}</p>
-                    </div>
+                        <div className="cs-section">
+                            <h4>My Contribution</h4>
+                            <p>{caseStudy.contribution}</p>
+                        </div>
 
-                    <div className="cs-actions">
-                        <a href={repo} target="_blank" rel="noreferrer" className="cs-btn cs-btn-primary">View on GitHub</a>
-                        {caseStudy.live && (
-                            <a href={caseStudy.live} target="_blank" rel="noreferrer" className="cs-btn cs-btn-primary">View Live</a>
-                        )}
+                        <div className="cs-section">
+                            <h4>Tech Stack</h4>
+                            <div className="cs-tags">
+                                {caseStudy.stack.map((tech) => (
+                                    <span className="cs-tag" key={tech}>{tech}</span>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="cs-section">
+                            <h4>Outcome</h4>
+                            <p>{caseStudy.outcome}</p>
+                        </div>
+
+                        <div className="cs-actions">
+                            <a href={repo} target="_blank" rel="noreferrer" className="cs-btn cs-btn-primary">View on GitHub</a>
+                            {caseStudy.live && (
+                                <a href={caseStudy.live} target="_blank" rel="noreferrer" className="cs-btn cs-btn-primary">View Live</a>
+                            )}
+                        </div>
                     </div>
                 </div>
             </div>
