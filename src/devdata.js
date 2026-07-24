@@ -30,7 +30,7 @@ export const featuredWorks = [
         description: "AI-native RAG platform comparing Vector/Keyword/Hybrid retrieval, built with a 5-person team.",
         caseStudy: {
             problem: "Compare retrieval strategies for grounding LLM answers in a document corpus, and determine which approach - pure vector, pure keyword, or a hybrid - gives the most accurate, hallucination-free answers.",
-            contribution: "Designed and built the Vector Retrieval pipeline (FAISS + sentence-transformers), defined the shared ingest/retrieve API contract used across all three retrieval modules, and worked alongside a 5-person team spanning frontend, backend, and the other two retrieval strategies.",
+            contribution: "Designed and built the Vector Retrieval pipeline (FAISS + sentence-transformers), defined the shared ingest/retrieve API contract used across all three retrieval modules, and worked as Team Lead in a 5-person team spanning frontend, backend, and the other two retrieval strategies.",
             stack: ["React", "TypeScript", "FastAPI", "PostgreSQL", "FAISS", "ChromaDB", "Groq LLM", "JWT Auth"],
             outcome: "Benchmarked against 5,000+ TriviaQA questions with EM/F1, Precision@k, and MRR metrics; shipped a working chat UI with citation-grounded answers and per-method evaluation tooling.",
         },
@@ -45,9 +45,13 @@ export const featuredWorks = [
         description: "AI presentation tool built at a university AI research center with a 3-person team.",
         caseStudy: {
             problem: "Build an AI tool that turns a topic or pasted content into a structured slide deck, as a feature for a university AI research center's in-house assistant.",
-            contribution: "Built the core frontend flows - authentication (NextAuth), dashboard, the slide-generation form, and slide previews - as part of a 3-person team.",
+            contribution: "Built the core frontend flows - authentication (NextAuth), dashboard, the slide-generation form, and slide previews - working as Team Lead in a 3-person team.",
             stack: ["Next.js", "TypeScript", "Redux Toolkit", "NextAuth", "PostgreSQL", "Prisma", "Docker"],
-            outcome: "Shipped as a feature on NEU's in-house AI system, \"Prof Dux\", built during summer 2025 training at the AIIT Center.",
+            outcome: "Shipped as a feature on NEU's in-house AI system, \"Prof Dux\", built during summer 2025 training at the AIIT Center." +
+                    " This project is currently private on GitHub due to its association with the university's internal systems." +
+                    " It is currently being used by the AIIT Center to generate slide decks for internal presentations and research dissemination." +
+                    " However, you can view the foundation of the project on my GitHub profile, where I have shared some of the code and documentation related to the AI Slides Generator.",
+            
         },
     },
 
