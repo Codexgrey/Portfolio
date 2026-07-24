@@ -51,7 +51,8 @@
 #cv {
   display: inline-block;
   box-sizing: border-box;
-  width: 180px;
+  flex: 1;
+  font-size: 16px;
   white-space: nowrap;
   color: #59b256;
   padding: 15px;
@@ -71,7 +72,7 @@
 form {
     margin-top: 20px;
     width: 100%;
-    max-width: 420px;
+    max-width: 480px;
 }
   
 input {
@@ -96,9 +97,13 @@ textarea {
 }
   
 button {
-  border: none;
+  box-sizing: border-box;
+  border: 1px solid transparent;
   border-radius: 0.4rem;
-  width: 180px;
+  flex: 1;
+  font-size: 16px;
+  font-family: inherit;
+  text-align: center;
   white-space: nowrap;
   padding: 15px;
   background-color: #59b256;
@@ -110,7 +115,6 @@ button {
 .c-actions {
   width: 70%;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   margin-top: 12px;
   gap: 20px;
@@ -202,6 +206,7 @@ button {
 
     .c-actions button,
     .c-actions #cv {
+      flex: none;
       font-size: 16px;
       padding: 12px 0;
       width: 160px;
@@ -275,6 +280,7 @@ button {
 
     .c-actions button,
     .c-actions #cv {
+      flex: none;
       font-size: 14px;
       width: 160px;
       white-space: nowrap;
