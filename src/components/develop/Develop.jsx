@@ -16,7 +16,7 @@ const Develop = ({ title, img, link, repo, description, featured, onViewCaseStud
             <img src={img} alt={title} className="d-img" />
           </div>
 
-          <div className="d-body" style={{ backgroundColor: darkMode ? undefined : "#eee" }}>
+          <div className="d-body" style={{ backgroundColor: darkMode ? undefined : "#f3f3f3" }}>
             <h3 className="d-title">{title}</h3>
             {description && <p className="d-desc">{description}</p>}
 
