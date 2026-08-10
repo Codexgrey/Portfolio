@@ -28,15 +28,14 @@ const Intro = () => {
 
                 <div className="i-title">
                     <div className="i-title-wrapper">
-                        <div className="i-title-item">Full-Stack Engineer</div>
+                        <div className="i-title-item">Full Stack Engineer</div>
                         <div className="i-title-item">Software Engineer</div>
-                        <div className="i-title-item">AI Product Builder</div>
                     </div>
                 </div>
 
                 <p className="i-desc">
-                    Building AI-native products end to end,<br />
-                    from React interfaces to Python/Node backends.
+                    Building solutions end to end,<br />
+                    from React interfaces to required backends.
                 </p>
                 <div className="i-actions">
                     <a className="cv" href={CV} download>Download CV</a>

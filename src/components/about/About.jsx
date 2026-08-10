@@ -18,13 +18,13 @@ const About = () => {
         <div className="a-right">
             <h1 className="a-title">About Me</h1>
             <p className="a-sub">
-                Full-stack engineer, <br /> building AI-native products among others.
+                Full Stack Software Engineer, <br /> building products and solutions for the right users.
             </p>
 
             <div className="a-desc">
                 <p>
-                    I'm a full-stack engineer with 4+ years experience shipping production
-                    apps in React, Next.js, TypeScript, Node.js and Python primarily. 
+                    I'm a full stack engineer with 4+ years experience shipping production
+                    apps in React, Next.js, TypeScript and Python primarily. 
                     <br />
                     <br />
                     Lately, that's meant building AI-native systems; a
@@ -36,7 +36,7 @@ const About = () => {
                     I care about the whole product, not just the ticket:
                     scoping the problem, weighing tradeoffs with the team,
                     and shipping something reliable end to end; from
-                    Figma to Docker to production.
+                    Figma to production.
                     <br />
                     <br />
                     Get in touch.<br />
