@@ -4,7 +4,7 @@ import "./contact.css";
 import Git from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Address from "../../img/placeholder.png";
-import CV from "../../img/CV.pdf"
+//import CV from "../../img/CV.pdf"
 import { useContext, useRef, useState } from "react";
 
 // email server provider
@@ -92,7 +92,14 @@ const Contact = () => {
             
             <div className="c-actions">
               <button type="submit">Submit</button>
-              <a id="cv" href={CV} download>Download CV</a>
+              <a 
+                id="cv" 
+                href="https://drive.google.com/file/d/1lZT-Im3-5j7Uc1jNaxsSh5S0Gio6UYQy/view?usp=drive_link" 
+                target="_blank" 
+                rel="noreferrer"
+              >
+                My Resume
+              </a>
             </div>
             {done && <p className="c-success">Thank you for your message... 🥂</p>}
           </form>

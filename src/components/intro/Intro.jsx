@@ -2,7 +2,7 @@
 import React from 'react'
 import './intro.css';
 import me from "../../img/me3.png"
-import CV from "../../img/CV.pdf"
+// import CV from "../../img/CV.pdf"
 import Git from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 
@@ -38,8 +38,15 @@ const Intro = () => {
                     from React interfaces to required backends.
                 </p>
                 <div className="i-actions">
-                    <a className="cv" href={CV} download>Download CV</a>
-                    <a className="cv cv-outline" href="#work">View Work</a>
+                    <a 
+                        className="cv"
+                        href="https://drive.google.com/file/d/1lZT-Im3-5j7Uc1jNaxsSh5S0Gio6UYQy/view?usp=drive_link"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        My Resume
+                    </a>
+                    <a className="cv cv-outline" href="#work">Some Works</a>
                 </div>
             </div>
 
