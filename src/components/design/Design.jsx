@@ -13,7 +13,7 @@ const Design = ({img, link}) => {
             <div className="ds-circle"></div>
         </div>
         <a href={link} target="_blank" rel="noreferrer">
-          <img src={img} alt="UI/UX Design" className="ds-img" />
+          <img src={img} alt="UI/UX Design" className="ds-img" loading="lazy" decoding="async" />
         </a>
     </div> 
   )

@@ -13,7 +13,7 @@ const Develop = ({ title, img, link, repo, description, featured, onViewCaseStud
       {/* cards for each project */}
       <div className="d">
           <div className="d-img-wrap">
-            <img src={img} alt={title} className="d-img" />
+            <img src={img} alt={title} className="d-img" loading="lazy" decoding="async" />
           </div>
 
           <div className="d-body" style={{ backgroundColor: darkMode ? undefined : "#f3f3f3" }}>

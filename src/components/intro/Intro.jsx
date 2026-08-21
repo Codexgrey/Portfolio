@@ -15,11 +15,11 @@ const Intro = () => {
             <div className="i-left-wrapper">
                 <div className="i-socials">
                     <a href="http://github.com/Codexgrey" target="_blank" rel="noreferrer">
-                        <img src={Git} alt="GitHub" className="i-social-icon" />
+                        <img src={Git} alt="GitHub" className="i-social-icon" width="32" height="32" decoding="async" />
                     </a>
 
                     <a href="http://www.linkedin.com/in/collinsovuakporaye" target="_blank" rel="noreferrer">
-                        <img src={LinkedIn} alt="LinkedIn" className="i-social-icon" />
+                        <img src={LinkedIn} alt="LinkedIn" className="i-social-icon" width="32" height="32" decoding="async" />
                     </a>
                 </div>
 
@@ -114,7 +114,7 @@ const Intro = () => {
         <div className="i-right">
             <div className="i-bg"></div>
             <div className="i-photo-card">
-                <img src={me} alt="Illustrated portrait of Collins Ovuakporaye" className="i-img" />
+                <img src={me} alt="Illustrated portrait of Collins Ovuakporaye" className="i-img" decoding="async" fetchPriority="high" />
             </div>
         </div>
     </div>
