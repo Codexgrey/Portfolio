@@ -40,11 +40,11 @@ const Intro = () => {
                 <div className="i-actions">
                     <a 
                         className="cv"
-                        href="https://drive.google.com/file/d/1lZT-Im3-5j7Uc1jNaxsSh5S0Gio6UYQy/view?usp=drive_link"
+                        href= "https://drive.google.com/file/d/1oaoSQLmDuW5tgRCis7C7Q_VjhqHZPgns/view?usp=drive_link"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        My Resume
+                        Résumé
                     </a>
                     <a className="cv cv-outline" href="#work">Some Works</a>
                 </div>
